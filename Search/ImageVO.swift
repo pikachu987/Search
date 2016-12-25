@@ -18,4 +18,8 @@ class ImageVO {
         self.imageURL = imageURL
         self.title = title
     }
+    init(imageData: Data, title: String) {
+        self.imageData = imageData
+        self.title = title
+    }
 }
