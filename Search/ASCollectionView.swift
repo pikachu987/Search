@@ -113,7 +113,7 @@ open class ASCollectionView: UICollectionView, UICollectionViewDataSource {
     
     fileprivate func setUp() {
         dataSource = self        
-        enableLoadMore = true
+        enableLoadMore = false
         loadingMore = false
         currentOrientation = UIInterfaceOrientation.portrait
         (self.collectionViewLayout as? ASCollectionViewLayout)?.currentOrientation = currentOrientation
@@ -202,6 +202,7 @@ open class ASCollectionView: UICollectionView, UICollectionViewDataSource {
                     moreLoaderView = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
                     (moreLoaderView as! UIActivityIndicatorView).startAnimating()
                 }
+                moreLoaderView!.isHidden = true
                 moreLoaderView!.center = CGPoint(x: reusableView.bounds.size.width / 2, y: reusableView.bounds.size.height / 2)
                 moreLoaderView!.tag = 1
                 reusableView.addSubview(moreLoaderView!)
@@ -209,10 +210,12 @@ open class ASCollectionView: UICollectionView, UICollectionViewDataSource {
                 reusableView.addConstraint(NSLayoutConstraint(item: moreLoaderView!, attribute: NSLayoutAttribute.centerX, relatedBy: NSLayoutRelation.equal, toItem: reusableView, attribute: NSLayoutAttribute.centerX, multiplier: 1, constant: 0))
                 reusableView.addConstraint(NSLayoutConstraint(item: moreLoaderView!, attribute: NSLayoutAttribute.centerY, relatedBy: NSLayoutRelation.equal, toItem: reusableView, attribute: NSLayoutAttribute.centerY, multiplier: 1, constant: 0))
             }
+            moreLoaderView!.isHidden = true
             return reusableView
         } else {
             assertionFailure("Unsupported view supplementary element kind")
         }
+        reusableView?.isHidden = true
         return reusableView!
     }
     

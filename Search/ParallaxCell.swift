@@ -9,8 +9,8 @@
 import UIKit
 
 protocol ParallaxCellDelegate {
-    func parallaxDoubleTap(_ imageVO: ImageVO)
-    func parallaxLongPressed(_ imageVO: ImageVO)
+    func parallaxDoubleTap(_ imageView: UIImageView)
+    func parallaxLongPressed(_ imageView: UIImageView, imageVO: ImageVO)
 }
 
 class ParallaxCell: ASCollectionViewParallaxCell {
@@ -27,12 +27,12 @@ class ParallaxCell: ASCollectionViewParallaxCell {
     }
     
     func doubleTap(_ sender: AnyObject){
-        self.delegate?.parallaxDoubleTap(self.image)
+        self.delegate?.parallaxDoubleTap(self.parallaxImageView)
     }
     func longPressed(_ sender: UILongPressGestureRecognizer){
         if sender.state == .ended {
         }else if sender.state == .began {
-            self.delegate?.parallaxLongPressed(self.image)
+            self.delegate?.parallaxLongPressed(self.parallaxImageView, imageVO: self.image)
         }
     }
 }

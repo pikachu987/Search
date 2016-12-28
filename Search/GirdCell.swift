@@ -9,8 +9,8 @@
 import UIKit
 
 protocol GridCellDelegate {
-    func gridDoubleTap(_ imageVO: ImageVO)
-    func gridLongPressed(_ imageVO: ImageVO)
+    func gridDoubleTap(_ imageView: UIImageView)
+    func gridLongPressed(_ imageView: UIImageView, imageVO: ImageVO)
 }
 
 class GridCell: UICollectionViewCell {
@@ -32,12 +32,12 @@ class GridCell: UICollectionViewCell {
     }
     
     func doubleTap(_ sender: AnyObject){
-        self.delegate?.gridDoubleTap(self.image)
+        self.delegate?.gridDoubleTap(self.imageView)
     }
     func longPressed(_ sender: UILongPressGestureRecognizer){
         if sender.state == .ended {
         }else if sender.state == .began {
-            self.delegate?.gridLongPressed(self.image)
+            self.delegate?.gridLongPressed(self.imageView, imageVO: self.image)
         }
     }
 }
