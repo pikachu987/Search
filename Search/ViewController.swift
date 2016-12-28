@@ -8,6 +8,7 @@
 
 import UIKit
 import Kanna
+import CircularSpinner
 
 class ViewController: UIViewController {
     @IBOutlet weak var search: UITextField!
@@ -17,35 +18,18 @@ class ViewController: UIViewController {
         return [ImageVO]()
     }()
     
-    lazy var googleWV: UIWebView = {
-        return self.wvLoad()
-    }()
-    
-    lazy var naverWV: UIWebView = {
-        return self.wvLoad()
-    }()
-    
-    lazy var daumWV: UIWebView = {
-        return self.wvLoad()
-    }()
-    
     lazy var imageCrawling: ImageCrawling = {
         let imageCrawling = ImageCrawling()
         imageCrawling.delegate = self
         return imageCrawling
     }()
     
-    lazy var addBtn: UIButton = {
-        return self.addBtnLoad()
-    }()
-    
-    lazy var cancelBtn: UIButton = {
-        return self.cancelBtnLoad()
-    }()
-    
-    lazy var savedView: SavedView? = {
-        return self.savedViewLoad()
-    }()
+    var googleWV: UIWebView!
+    var naverWV: UIWebView!
+    var daumWV: UIWebView!
+    var addBtn: UIButton!
+    var cancelBtn: UIButton!
+    var savedView: SavedView!
     
     let interactor = Interactor()
     
@@ -53,13 +37,19 @@ class ViewController: UIViewController {
     var queue: DispatchQueue!
     var reload = false
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.collectionView.register(UINib(nibName: "Header", bundle: nil), forSupplementaryViewOfKind: "Header", withReuseIdentifier: "header")
         self.collectionView.delegate = self
         self.collectionView.asDataSource = self
+        
+        self.googleWV = self.wvLoad()
+        self.naverWV = self.wvLoad()
+        self.daumWV = self.wvLoad()
+        
+        self.addBtn = self.addBtnLoad()
+        self.cancelBtn = self.cancelBtnLoad()
+        self.savedView = self.savedViewLoad()
     }
     
     
@@ -204,9 +194,17 @@ extension ViewController: UITextFieldDelegate{
         self.daumWV.isHidden = true
         self.cancelBtn.isHidden = true
         self.collectionView.contentOffset = .zero
+        self.reload = false
         self.googleWV.loadRequest(URLRequest(url: URL(string: self.imageCrawling.searchUrl(.google, search: self.search.text!))!))
         self.naverWV.loadRequest(URLRequest(url: URL(string: self.imageCrawling.searchUrl(.naver, search: self.search.text!))!))
         self.daumWV.loadRequest(URLRequest(url: URL(string: self.imageCrawling.searchUrl(.daum, search: self.search.text!))!))
+        
+        CircularSpinner.setBackgroundColor(UIColor.black)
+        CircularSpinner.setLabelColor(UIColor.green)
+        CircularSpinner.trackPgColor = UIColor.white
+        CircularSpinner.trackBgColor = UIColor.black
+        CircularSpinner.dismissButton = false
+        CircularSpinner.show("검색중", animated: false, type: .indeterminate)
         return false
     }
 }
@@ -314,9 +312,9 @@ extension ViewController: UIWebViewDelegate{
         var urlContent = webView.stringByEvaluatingJavaScript(from: "document.documentElement.outerHTML")
         urlContent = urlContent?.replacingOccurrences(of: "\\", with: "", options: .literal, range: nil)
         urlContent = urlContent?.replacingOccurrences(of: "\\\\", with: "", options: .literal, range: nil)
-        //print("\r\n\r\n\r\n\(urlContent!)\r\n\r\n\r\n")
-        self.addBtn.frame.origin.y = self.view.frame.height
         
+        self.addBtn.frame.origin.y = self.view.frame.height
+        //print("\r\n\r\n\r\n\(urlContent!)\r\n\r\n\r\n")
         queue.async(group: group) {
             if webView == self.googleWV{
                 self.imageCrawling.parse(urlContent!, type: .google)
@@ -343,6 +341,12 @@ extension ViewController: CrawlingDelegate{
     func crawlingReload() {
         if self.reload == false{
             self.reload = true
+            DispatchQueue.global().async {
+                Thread.sleep(forTimeInterval: 1.5)
+                DispatchQueue.main.async {
+                    CircularSpinner.hide()
+                }
+            }
             self.collectionView.reloadData()
         }
     }

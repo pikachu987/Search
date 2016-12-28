@@ -70,14 +70,33 @@ class ImageCrawling {
         return ""
     }
     
+    func link(_ type: Craw, element: XMLElement) -> String?{
+        do {
+            if type == .google{
+                let meta = element.at_css("div.rg_meta")
+                let metaData = try JSONSerialization.jsonObject(with: (meta?.innerHTML?.data(using: String.Encoding(rawValue: String.Encoding.utf8.rawValue)))!, options: []) as! [String:AnyObject]
+                return (metaData["ru"] as? String)!
+            }else if type == .naver{
+                let meta = element.at_xpath("span")
+                let metaData = try JSONSerialization.jsonObject(with: (meta?.text?.data(using: String.Encoding(rawValue: String.Encoding.utf8.rawValue)))!, options: []) as! [String:AnyObject]
+                return (metaData["link"] as? String)!.removingPercentEncoding!
+            }else if type == .daum{
+                let meta = element.at_css("a.link_thumb")
+                return meta?["href"]
+            }
+        } catch{}
+        return ""
+    }
+    
     func parse(_ html: String, type: Craw){
         if let doc = HTML(html: html, encoding: .utf8){
             for element in doc.css(self.arrTag(type)){
                 let imgSrc = self.imgSrc(type, element: element)
                 let title = self.title(type, element: element)
+                let link = self.link(type, element: element)
                 
                 if imgSrc != nil && imgSrc != "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"{
-                    self.delegate?.crawlingAdd(ImageVO(imageURL: imgSrc!, title: title!))
+                    self.delegate?.crawlingAdd(ImageVO(imageURL: imgSrc!, title: title!, link: link!))
                 }
             }
             DispatchQueue.main.async {

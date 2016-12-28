@@ -11,15 +11,12 @@ import Foundation
 class ImageVO {
     var imageURL: String?
     var imageData: Data?
-    var imageDetail: String?
     var title: String?
+    var link: String?
     
-    init(imageURL: String, title: String) {
+    init(imageURL: String, title: String, link: String) {
         self.imageURL = imageURL
         self.title = title
-    }
-    init(imageData: Data, title: String) {
-        self.imageData = imageData
-        self.title = title
+        self.link = link
     }
 }
