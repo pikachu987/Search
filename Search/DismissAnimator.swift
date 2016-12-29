@@ -38,42 +38,52 @@ extension DismissAnimator : UIViewControllerAnimatedTransitioning {
         var x: CGFloat = 0
         var y: CGFloat = 0
         
-        if DismissAnimator.tx > 0{
-            x = UIScreen.main.bounds.width
-        }else if DismissAnimator.tx < 0{
-            x = -UIScreen.main.bounds.width
-        }
-        if DismissAnimator.ty > 0{
-            y = UIScreen.main.bounds.height
-        }else if DismissAnimator.ty < 0{
-            y = -UIScreen.main.bounds.height
+        func animate(_ animation: @escaping ((Void) -> Void)){
+            UIView.animate(
+                withDuration: transitionDuration(using: transitionContext),
+                animations: {
+                    animation()
+            },
+                completion: { _ in
+                    transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
+                    DismissAnimator.tx = nil
+                    DismissAnimator.ty = nil
+            }
+            )
         }
         
-        if x == 0 && y == 0{
-            UIView.animate(
-                withDuration: transitionDuration(using: transitionContext),
-                animations: {
-                    fromVC.view.alpha = 0
-            },
-                completion: { _ in
-                    transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
-                    DismissAnimator.tx = nil
-                    DismissAnimator.ty = nil
-            }
-            )
+        if DismissAnimator.tx == nil || DismissAnimator.ty == nil{
+            animate({ (_) in
+                fromVC.view.frame = CGRect(origin: CGPoint(x: 0, y: 0), size: UIScreen.main.bounds.size)
+            })
         }else{
-            let pt = CGPoint(x: x, y: y)
-            UIView.animate(
-                withDuration: transitionDuration(using: transitionContext),
-                animations: {
-                    fromVC.view.frame = CGRect(origin: pt, size: UIScreen.main.bounds.size)
-            },
-                completion: { _ in
-                    transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
-                    DismissAnimator.tx = nil
-                    DismissAnimator.ty = nil
+            if DismissAnimator.tx > 0{
+                x = UIScreen.main.bounds.width
+            }else if DismissAnimator.tx < 0{
+                x = -UIScreen.main.bounds.width
             }
-            )
+            if DismissAnimator.ty > 0{
+                y = UIScreen.main.bounds.height
+            }else if DismissAnimator.ty < 0{
+                y = -UIScreen.main.bounds.height
+            }
+            
+            if x == 0 && y == 0{
+                animate({ (_) in
+                    fromVC.view.alpha = 0
+                    if let vc = fromVC as? ImageDetailViewController{
+                        vc.delete.frame.origin.x = -vc.delete.frame.width
+                        vc.titleLbl.frame.origin.x = -vc.titleLbl.frame.width
+                        vc.bottom.frame.origin.y = vc.view.frame.height+vc.bottom.frame.height
+                        vc.image.frame.origin.y = -vc.image.frame.height
+                    }
+                })
+            }else{
+                let pt = CGPoint(x: x, y: y)
+                animate({ (_) in
+                    fromVC.view.frame = CGRect(origin: pt, size: UIScreen.main.bounds.size)
+                })
+            }
         }
     }
     

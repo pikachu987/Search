@@ -8,11 +8,13 @@
 
 import UIKit
 import Photos
+import Toast_Swift
 
 class ImageDetailViewController: UIViewController {
     var imageVO: ImageVO!
     var image: UIImageView!
     var interactor: Interactor? = nil
+    var deleteCallback: ((UIImage) -> Void)!
     
     @IBOutlet var titleLbl: UILabel!
     @IBOutlet var delete: UIButton!
@@ -72,17 +74,27 @@ class ImageDetailViewController: UIViewController {
     }
     
     @IBAction func deleteAction(_ sender: Any) {
-        
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: self.view.frame.width, height: self.view.frame.height), false, 0.0)
+        self.view.drawHierarchy(in: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height), afterScreenUpdates: false)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        if arc4random_uniform(2) == 0{
+            self.deleteCallback(image!)
+            self.dismiss(animated: true, completion: nil)
+        }else{
+            self.deleteCallback(image!)
+            self.dismiss(animated: false, completion: nil)
+        }
     }
+    
+    
     @IBAction func saveAction(_ sender: Any) {
         self.galleryAccess {
             PhotoAlbumUtil.saveImageInAlbum(UIImage(data: self.imageVO.imageData!)!, albumName: "search", completion: { (result) in
                 switch result {
                 case .success:
                     DispatchQueue.main.async(execute: {
-                        let alert = UIAlertController(title: "", message: "갤러리에 저장되었습니다.", preferredStyle: .alert)
-                        alert.addAction(UIAlertAction(title: "확인", style: .default))
-                        self.present(alert, animated: true, completion: nil)
+                        self.view.makeToast("갤러리에 저장되었습니다", duration: 0.5, position: .center)
                     })
                     break
                 case .error:
@@ -99,9 +111,7 @@ class ImageDetailViewController: UIViewController {
     }
     @IBAction func copyAction(_ sender: Any) {
         UIPasteboard.general.string = self.imageVO.imageURL
-        let alert = UIAlertController(title: "", message: "복사되었습니다.", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "확인", style: .default))
-        self.present(alert, animated: true, completion: nil)
+        self.view.makeToast("복사되었습니다", duration: 0.5, position: .center)
     }
     @IBAction func openAction(_ sender: Any) {
         if let url = Foundation.URL(string: self.imageVO.link!){

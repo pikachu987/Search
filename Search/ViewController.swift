@@ -37,6 +37,11 @@ class ViewController: UIViewController {
     var queue: DispatchQueue!
     var reload = false
     
+    var closeView: UIImageView!
+    
+    var movement: Movement!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.collectionView.register(UINib(nibName: "Header", bundle: nil), forSupplementaryViewOfKind: "Header", withReuseIdentifier: "header")
@@ -50,6 +55,14 @@ class ViewController: UIViewController {
         self.addBtn = self.addBtnLoad()
         self.cancelBtn = self.cancelBtnLoad()
         self.savedView = self.savedViewLoad()
+        
+        self.closeView = UIImageView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
+        self.closeView.isHidden = true
+        self.view.addSubview(self.closeView)
+        
+        self.movement = Movement()
+        self.movement.delegate = self
+        self.movement.start(CGRect(x: 0, y: 80, width: self.view.frame.width, height: self.view.frame.height-80))
     }
     
     
@@ -175,6 +188,16 @@ extension ViewController{
             }
             vc.transitioningDelegate = self
             vc.interactor = interactor
+            vc.deleteCallback = {(image: UIImage) in
+                self.closeView.image = image
+                self.closeView.isHidden = false
+                self.closeView.boom()
+                self.delay(1) {
+                    self.closeView.reset()
+                    self.closeView.isHidden = true
+                    self.closeView.image = nil
+                }
+            }
         }
     }
 }
@@ -198,6 +221,7 @@ extension ViewController: UITextFieldDelegate{
         self.googleWV.loadRequest(URLRequest(url: URL(string: self.imageCrawling.searchUrl(.google, search: self.search.text!))!))
         self.naverWV.loadRequest(URLRequest(url: URL(string: self.imageCrawling.searchUrl(.naver, search: self.search.text!))!))
         self.daumWV.loadRequest(URLRequest(url: URL(string: self.imageCrawling.searchUrl(.daum, search: self.search.text!))!))
+        self.movement.stop()
         
         CircularSpinner.setBackgroundColor(UIColor.black)
         CircularSpinner.setLabelColor(UIColor.green)
@@ -411,5 +435,12 @@ extension ViewController: UIViewControllerTransitioningDelegate {
     
     func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
         return interactor.hasStarted ? interactor : nil
+    }
+}
+
+
+extension ViewController: MovementDelegate{
+    func moveAddSubView(_ moveView: MoveView) {
+        self.view.addSubview(moveView)
     }
 }

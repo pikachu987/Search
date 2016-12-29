@@ -7,6 +7,7 @@ target 'Search' do
   
   pod ‘Kanna’
   pod 'CircularSpinner', :git => 'https://github.com/pikachu987/CircularSpinner.git'
+  pod 'Toast-Swift', '~> 2.0.0’
 
   # Pods for Search
 
