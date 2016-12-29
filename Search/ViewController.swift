@@ -9,6 +9,7 @@
 import UIKit
 import Kanna
 import CircularSpinner
+import Firebase
 
 class ViewController: UIViewController {
     @IBOutlet weak var search: UITextField!
@@ -38,15 +39,23 @@ class ViewController: UIViewController {
     var reload = false
     
     var closeView: UIImageView!
+    var loadingView: LoadingView!
     
-    var movement: Movement!
-    
+    var searchCnt = 0
+    var daumFinish = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.collectionView.register(UINib(nibName: "Header", bundle: nil), forSupplementaryViewOfKind: "Header", withReuseIdentifier: "header")
         self.collectionView.delegate = self
         self.collectionView.asDataSource = self
+        
+        if let customView = Bundle.main.loadNibNamed("LoadingView", owner: self, options: nil)?.first as? LoadingView {
+            self.loadingView = customView
+            self.loadingView.frame = CGRect(x: 0, y: 80, width: self.view.frame.width, height: self.view.frame.height-80)
+            self.loadingView.setLoading()
+            self.view.addSubview(self.loadingView)
+        }
         
         self.googleWV = self.wvLoad()
         self.naverWV = self.wvLoad()
@@ -59,10 +68,6 @@ class ViewController: UIViewController {
         self.closeView = UIImageView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
         self.closeView.isHidden = true
         self.view.addSubview(self.closeView)
-        
-        self.movement = Movement()
-        self.movement.delegate = self
-        self.movement.start(CGRect(x: 0, y: 80, width: self.view.frame.width, height: self.view.frame.height-80))
     }
     
     
@@ -221,7 +226,9 @@ extension ViewController: UITextFieldDelegate{
         self.googleWV.loadRequest(URLRequest(url: URL(string: self.imageCrawling.searchUrl(.google, search: self.search.text!))!))
         self.naverWV.loadRequest(URLRequest(url: URL(string: self.imageCrawling.searchUrl(.naver, search: self.search.text!))!))
         self.daumWV.loadRequest(URLRequest(url: URL(string: self.imageCrawling.searchUrl(.daum, search: self.search.text!))!))
-        self.movement.stop()
+        self.loadingView.stop()
+        
+        FIRAnalytics.setUserPropertyString(textField.text, forName: "search")
         
         CircularSpinner.setBackgroundColor(UIColor.black)
         CircularSpinner.setLabelColor(UIColor.green)
@@ -345,11 +352,18 @@ extension ViewController: UIWebViewDelegate{
             }else if webView == self.naverWV{
                 self.imageCrawling.parse(urlContent!, type: .naver)
             }else if webView == self.daumWV{
-                self.imageCrawling.parse(urlContent!, type: .daum)
+                if self.daumFinish{
+                    self.imageCrawling.parse(urlContent!, type: .daum)
+                }
+                self.daumFinish = !self.daumFinish
             }
         }
-        _ = group.wait(timeout: .distantFuture)
-        self.collectionView.reloadData()
+        self.searchCnt += 1
+        if self.searchCnt > 2{
+            self.searchCnt = 0
+            _ = group.wait(timeout: .distantFuture)
+            self.collectionView.reloadData()
+        }
     }
 }
 
@@ -373,6 +387,9 @@ extension ViewController: CrawlingDelegate{
             }
             self.collectionView.reloadData()
         }
+    }
+    func crawlingNoData(_ type: Craw) {
+        self.view.makeToast("\(type) 데이터가 없습니다.")
     }
 }
 
@@ -435,12 +452,5 @@ extension ViewController: UIViewControllerTransitioningDelegate {
     
     func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
         return interactor.hasStarted ? interactor : nil
-    }
-}
-
-
-extension ViewController: MovementDelegate{
-    func moveAddSubView(_ moveView: MoveView) {
-        self.view.addSubview(moveView)
     }
 }

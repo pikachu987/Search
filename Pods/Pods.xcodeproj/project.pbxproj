@@ -7,68 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		070EDDC55B4D37267D86764A64A589B2 = {
-			isa = PBXBuildFile;
-			fileRef = 454E559524547AC18CF7089FE5BC09DB;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		0980F84AF1FBC3C133FC7A7C0BE4E130 = {
-			isa = PBXBuildFile;
-			fileRef = 77532322BCDF78A920E665A44AC90E40;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		09B500836CD25DE646B5B3B6C045A05F = {
-			isa = PBXBuildFile;
-			fileRef = 90BB4CE26B56BA12EAFE23711E7AE108;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		0D41DE7B62D2F51C72163C260CD001E2 = {
-			isa = PBXBuildFile;
-			fileRef = 3044DF20646AAF52A6CF2184EE9195E1;
-		};
-		10EF9149BA6080B0C5F4716CDFC650C6 = {
-			isa = PBXBuildFile;
-			fileRef = 04FEB79171A7ECDAB04527863E889FE3;
-		};
-		1C763BB273448AE5B438629F5B5B7E30 = {
-			isa = PBXBuildFile;
-			fileRef = 041D2C056D3D49DA75C253A0E236622D;
-		};
-		1C83E15A0C0B61BB3D59E27176EEF171 = {
-			isa = PBXBuildFile;
-			fileRef = 4DA288A8D00FFD3873CA44B685E48D2D;
-		};
-		24139A757BEB4F3E026276F1C6ACFE6E = {
-			isa = PBXBuildFile;
-			fileRef = CCC21F4BCF17533053FB3B37549CC1BA;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		24FF49BE9B4262B7A635C504B89CA3AB = {
-			isa = PBXBuildFile;
-			fileRef = E6EB4DDB45432D9CD16E1729184EDF34;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		2942534E3B50CB2D896B85299BC31267 = {
+		033ACB05F42D188C48DE39BC2C908C0B = {
 			isa = PBXBuildFile;
 			fileRef = D87F2BF65A1E17B681BF5416E599CD5C;
 			settings = {
@@ -77,9 +16,90 @@
 				);
 			};
 		};
+		05A85CA82B9659849AFEAD923882ECEF = {
+			isa = PBXBuildFile;
+			fileRef = A817CAE99C81EE68006DC1E60E295C0A;
+		};
+		0655C3E7FCE02C35F819251044317D8C = {
+			isa = PBXBuildFile;
+			fileRef = A817CAE99C81EE68006DC1E60E295C0A;
+		};
+		070EDDC55B4D37267D86764A64A589B2 = {
+			isa = PBXBuildFile;
+			fileRef = FA1E47A1C37E57EDC5160548BA9DA7BA;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0980F84AF1FBC3C133FC7A7C0BE4E130 = {
+			isa = PBXBuildFile;
+			fileRef = B1AD6B8D1FD8DF66E434C2CC144626FA;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		09B500836CD25DE646B5B3B6C045A05F = {
+			isa = PBXBuildFile;
+			fileRef = 526BFDA7F11502B169ADD6093D46A869;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0D41DE7B62D2F51C72163C260CD001E2 = {
+			isa = PBXBuildFile;
+			fileRef = 79C4DE16851B0D9E9031E7225E691CF2;
+		};
+		10EF9149BA6080B0C5F4716CDFC650C6 = {
+			isa = PBXBuildFile;
+			fileRef = BD9E0FBF5834995D18A2E2918D0BF197;
+		};
+		171A418AED16521456694B15C00E9F2C = {
+			isa = PBXBuildFile;
+			fileRef = 431C264CBCD99BFC9E9D3CEDD49E8330;
+		};
+		1C763BB273448AE5B438629F5B5B7E30 = {
+			isa = PBXBuildFile;
+			fileRef = 132419A3D06276517F277992236C28E2;
+		};
+		1C83E15A0C0B61BB3D59E27176EEF171 = {
+			isa = PBXBuildFile;
+			fileRef = BF4F27615D07CA1F167E0EE8D093A072;
+		};
+		20866A1EFF62CED99D823B81B1C98C93 = {
+			isa = PBXBuildFile;
+			fileRef = FDBD6AA3DE2878E3353CE7E030E0944C;
+		};
+		2377E523395CB5EC94D91283344580A1 = {
+			isa = PBXBuildFile;
+			fileRef = 0EA075CD1CF48185FAF42F10DC7D12F8;
+		};
+		24139A757BEB4F3E026276F1C6ACFE6E = {
+			isa = PBXBuildFile;
+			fileRef = 128A4F9763996A9D3B18241E7D10682D;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		24FF49BE9B4262B7A635C504B89CA3AB = {
+			isa = PBXBuildFile;
+			fileRef = 2055AE6FB9030CD8A57603B99159C7ED;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
 		2E9DA845E0508495B5345965442C4908 = {
 			isa = PBXBuildFile;
-			fileRef = 719FCE83D81E2754A55F080ABC25377E;
+			fileRef = 25D4FB678E109216643B24BA6976DA9F;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -88,7 +108,7 @@
 		};
 		31FE1B856B9D2D126AE37AEE8710BC81 = {
 			isa = PBXBuildFile;
-			fileRef = FCE5982F517D535DB5262A5C04B7545A;
+			fileRef = 7E29B79206CA0B1325896D3529B2F666;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -97,7 +117,7 @@
 		};
 		3CD49DB8330E850A233883D008989EB7 = {
 			isa = PBXBuildFile;
-			fileRef = 8EF0DD7E0B8669DEC5FD57C435BC498E;
+			fileRef = 18A78452C4A6296F48854A40EB023ACB;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -106,46 +126,41 @@
 		};
 		413BA763428213B18B0ADB5F8F147026 = {
 			isa = PBXBuildFile;
-			fileRef = 8C3BFF0D9BB7FA128689306D70DCB274;
+			fileRef = 86836425D610DA370D78E56A35F7835A;
 		};
 		4541CADD433121F40654F952C24CA257 = {
 			isa = PBXBuildFile;
-			fileRef = 3678F0E02E159E2FD1E478DB43112C0E;
+			fileRef = A4ACFEF427C7A60C6FEA5EAB8199FC00;
 			settings = {
 				ATTRIBUTES = (
 					Public,
 				);
 			};
-		};
-		463FBC004EE869DA25B8E4E11093D84A = {
-			isa = PBXBuildFile;
-			fileRef = A817CAE99C81EE68006DC1E60E295C0A;
 		};
 		4793D5E2F22D193B752071309971F421 = {
 			isa = PBXBuildFile;
-			fileRef = 7CD4D3195FD7FAEFB79906A71A123A0A;
+			fileRef = 61A9C5A49C824E98D52315DA850393C7;
 		};
 		4E382C034BCED335D04C6F5EC080ED25 = {
 			isa = PBXBuildFile;
-			fileRef = 7890549AF2973D8290B82A6AE5EF9193;
+			fileRef = F5B9577E731F678003ED14E889F5B295;
 			settings = {
 				ATTRIBUTES = (
 					Public,
 				);
 			};
 		};
-		50A934878DF508F59D53DDA91784C382 = {
+		529535B3F0953F90542E496EDAF7CEEE = {
 			isa = PBXBuildFile;
-			fileRef = 85B65E0F7A86C94EC880AE6D897BF2A4;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
+			fileRef = A817CAE99C81EE68006DC1E60E295C0A;
+		};
+		5D80A1D759485137D5350BEADAA213EA = {
+			isa = PBXBuildFile;
+			fileRef = 23016F69B2480F44D0BB5526B39192FA;
 		};
 		5DE5CC9B0DD086AD5C6531FB63C016F8 = {
 			isa = PBXBuildFile;
-			fileRef = E514ABC53A8367DC81F95AAF9490CAF4;
+			fileRef = E0ADE309A34FA918E916F838D49FA49B;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -154,7 +169,7 @@
 		};
 		6190FC7F399ECFF2DFD89E518E3E52F0 = {
 			isa = PBXBuildFile;
-			fileRef = DDE575120D877CA4CDB9B22D5591DEA4;
+			fileRef = 83E924983DB1CD57E82233B221746172;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -163,11 +178,11 @@
 		};
 		63CA54E9623E9E8011106A59F5827FB7 = {
 			isa = PBXBuildFile;
-			fileRef = 498D868971DE1DA477F7CB6D16357683;
+			fileRef = 2886AD490FD16C7CA7DB329BF53EB0DC;
 		};
 		6B0A0AD5B18F7EAC35E4C5F9621F10E9 = {
 			isa = PBXBuildFile;
-			fileRef = 05FA3A33DFBB39C4BBEFC4BFF3928D7C;
+			fileRef = 364A6F3A98B529EB10E120D59AFF22BA;
 		};
 		6C88C4B157AD50BFFE977257331C5A2D = {
 			isa = PBXBuildFile;
@@ -175,11 +190,11 @@
 		};
 		6E476AAC05B3F6C76D13BC693C8E9D23 = {
 			isa = PBXBuildFile;
-			fileRef = 828A4DAE4F8B985A4BC3D61366F6A133;
+			fileRef = C2F11627025532921E4B534CF3E35422;
 		};
 		766B13B4D9D68C01423C1F94313CF399 = {
 			isa = PBXBuildFile;
-			fileRef = 5AF47B4BD23B73BB9FF9C704F82C310C;
+			fileRef = A22E9DC3B6CB38465952DCF7C85475E3;
 		};
 		76DA545AE2F38E37B0EB20D7FD696DCC = {
 			isa = PBXBuildFile;
@@ -187,20 +202,16 @@
 		};
 		78EE9A94766AFAFD6E74CDD966B6C97E = {
 			isa = PBXBuildFile;
-			fileRef = 605D0219FD948F404A26AEB03C186991;
+			fileRef = 9CD30C4D92FA5FF0E1EAA26225E05DD8;
 			settings = {
 				ATTRIBUTES = (
 					Public,
 				);
 			};
 		};
-		8145D80F5B70E4729321769C5E295E26 = {
-			isa = PBXBuildFile;
-			fileRef = 47BA6CEA7F9958824202B9CE5F049D90;
-		};
 		83B84ADA0C47E305F55BD9F3CD1B6B1F = {
 			isa = PBXBuildFile;
-			fileRef = 64FE9558C78FD0B5ECA629A0FFE4921F;
+			fileRef = 0BA004C5DE920C92DB7B11A2838DE986;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -220,17 +231,22 @@
 			isa = PBXBuildFile;
 			fileRef = 091D54A73E1E8BB182C9D7D245AF1C2F;
 		};
-		8AC69C54C37828363858EA40C1BE6AD4 = {
+		8B465D54C800F29955B1EAA69CEF1CAD = {
 			isa = PBXBuildFile;
-			fileRef = 2B4DCA2E43E347CD8664A25705C113DF;
+			fileRef = 3234A512B94778B9D48F9555F5016BBB;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
 		};
 		8B591726A3BB44F024FDFDE14F035637 = {
 			isa = PBXBuildFile;
-			fileRef = 8AA2A62DE3AE44F8F4220891CAED632F;
+			fileRef = 7D57AE67D4690090528924BB5764DDC4;
 		};
 		8F09FC703E6E12AAE4E9077A74475B3C = {
 			isa = PBXBuildFile;
-			fileRef = AF635DED2C9445CB2E4925D2B5043718;
+			fileRef = 297EC549C8C81E9F267C4C7EC179BBE2;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -239,7 +255,7 @@
 		};
 		92650328D7342C97D8ACEA4A89EFB479 = {
 			isa = PBXBuildFile;
-			fileRef = E6A54493C0393B065DF55C7732643AF7;
+			fileRef = 7084E21BEAE9E7F59562345575457B61;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -248,24 +264,20 @@
 		};
 		95036285CFA93AAE478296406695C473 = {
 			isa = PBXBuildFile;
-			fileRef = E654078BDB8E9BC937B75FC75033D20C;
+			fileRef = 9F722962BFC851571A3B594EE75CE4D5;
 			settings = {
 				ATTRIBUTES = (
 					Public,
 				);
 			};
 		};
-		98DA09C386FA39B088A9C5C96F6B625D = {
-			isa = PBXBuildFile;
-			fileRef = 23016F69B2480F44D0BB5526B39192FA;
-		};
 		99DFD4024CCD28BEA133E4E9688A0DAC = {
 			isa = PBXBuildFile;
-			fileRef = 828A4DAE4F8B985A4BC3D61366F6A133;
+			fileRef = C2F11627025532921E4B534CF3E35422;
 		};
 		9BD962F0306BC74A0D00C588EEDC7793 = {
 			isa = PBXBuildFile;
-			fileRef = 4FB803F890AABE856133CF2A11C53CE0;
+			fileRef = A2E8F992842DC4D812099B7EE5810BF5;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -274,20 +286,29 @@
 		};
 		9C22EC8722331D66A66D59A19F8E2381 = {
 			isa = PBXBuildFile;
-			fileRef = D95557307647353A6E8752C636443F9E;
+			fileRef = 5E9A8EEB16ED8BAD818EA0B6904A1D91;
 			settings = {
 				ATTRIBUTES = (
 					Public,
 				);
 			};
 		};
-		9DD338B839B3173D6131385F2C7C9017 = {
+		9C602C7BEF5548774EE4648554C9C986 = {
 			isa = PBXBuildFile;
-			fileRef = A817CAE99C81EE68006DC1E60E295C0A;
+			fileRef = A6776658784A3E86A39B0111B2856E9D;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		9FFCD2218E600361E15933C9AF7E1CCF = {
+			isa = PBXBuildFile;
+			fileRef = CE8862C2D44A3B8113CB25F3B6BC267A;
 		};
 		A4468A83F5D4F60D80D4D446D2012187 = {
 			isa = PBXBuildFile;
-			fileRef = A24F584D19A9D0DCB56BA1F5D9549123;
+			fileRef = B15ECC7CF4D7BEC77737558B387405F2;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -296,7 +317,16 @@
 		};
 		A4DA862E5E0EFA841FA9071517DA99E2 = {
 			isa = PBXBuildFile;
-			fileRef = 03779776360563CC43A33DC8A801D478;
+			fileRef = 8DFEF15BEE9D6CB10B67301F98005098;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		A76E9C6510EC3CBA92D72C206673FF46 = {
+			isa = PBXBuildFile;
+			fileRef = CC9FD57C37EAD998DDBE8E97B4CAF899;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -305,11 +335,18 @@
 		};
 		AD79A6CC43AAB43940C1713D2A1C77A7 = {
 			isa = PBXBuildFile;
-			fileRef = 0C14D7F688F0E6FE9B830CB05370B64F;
+			fileRef = 3A54843B9C37D77CA7447DC58C5DE6ED;
 			settings = {
 				ATTRIBUTES = (
 					Public,
 				);
+			};
+		};
+		AF5A33CAE747988723CB39520111DC1D = {
+			isa = PBXBuildFile;
+			fileRef = 26E2449233160F504AA30EDD46CA08A0;
+			settings = {
+				COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0";
 			};
 		};
 		AF75E43C6557BBD76CA06411152D3A0C = {
@@ -318,7 +355,16 @@
 		};
 		AFF4A33A1250BB34E0F54650E82FBDCF = {
 			isa = PBXBuildFile;
-			fileRef = 03499C0E928CF957348BCF7327B8B08E;
+			fileRef = B5D92562D821407454BEA31E5C482BDE;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		B910FE00538591C9996D770836F3B177 = {
+			isa = PBXBuildFile;
+			fileRef = 04FB688A1E14D55D5CAE6672C6623518;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -328,10 +374,6 @@
 		BD1B3D75372BEAFD4B4170A24E8ABDE1 = {
 			isa = PBXBuildFile;
 			fileRef = A817CAE99C81EE68006DC1E60E295C0A;
-		};
-		C9D3D5376E47D0F830CDF9714C095D03 = {
-			isa = PBXBuildFile;
-			fileRef = CE8862C2D44A3B8113CB25F3B6BC267A;
 		};
 		D031D586AB805040EF6992621873DAEB = {
 			isa = PBXBuildFile;
@@ -344,7 +386,7 @@
 		};
 		D172FCA63E4DBD8392D1442A2C4CCDBE = {
 			isa = PBXBuildFile;
-			fileRef = 9149963B698E7309108F2006F86AF269;
+			fileRef = DE8A3D0A45AA7B3074F1168CB9474E88;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -357,11 +399,11 @@
 		};
 		D3BE02D58232D0C8935A1C2B146F907B = {
 			isa = PBXBuildFile;
-			fileRef = 8C3BFF0D9BB7FA128689306D70DCB274;
+			fileRef = 86836425D610DA370D78E56A35F7835A;
 		};
 		D4ECF0642832352494F58D4718F43106 = {
 			isa = PBXBuildFile;
-			fileRef = 113A41D57E66529EFDFFCC059BDC4F6A;
+			fileRef = 4B66B763E92AA49B08AE5ED1D9738348;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -370,7 +412,7 @@
 		};
 		DC1428533C24135D2DD7FC3379DE6D06 = {
 			isa = PBXBuildFile;
-			fileRef = C2CDA299B3E642F35E243B7AA8ED9FD5;
+			fileRef = EEEEB04A6E714369F8931669B92AF0CC;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -379,11 +421,11 @@
 		};
 		DD036026480564D82488E8EE96AE7CE4 = {
 			isa = PBXBuildFile;
-			fileRef = 6E99E9AA53DD37973CE3D70D781F30DC;
+			fileRef = 76425122890FD84FCC2CEC79A5F449E3;
 		};
 		F5CA70259B7E28D03CC9E7408DEE5A18 = {
 			isa = PBXBuildFile;
-			fileRef = 61AEA8DA1247F385716967586ED8DDC2;
+			fileRef = 5028E7C0E34A80C4EA1F5C8C46EB0BA5;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -392,7 +434,7 @@
 		};
 		F5E7648CC0051CDFC01B290DC1F04DE2 = {
 			isa = PBXBuildFile;
-			fileRef = DE071CAB5E200195BE7B321EB59D944E;
+			fileRef = D1C28CA986E4EFAD82CC00A749E7A8B8;
 			settings = {
 				ATTRIBUTES = (
 					Public,
@@ -406,19 +448,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7A889D4E493E8741D070A902AF68BF0A = {
+		413919C7130F2EF5234BEC824D224278 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E;
+			proxyType = 1;
+			remoteGlobalIDString = 92BB131FA876445E027D20AE23EA7B5F;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		45ADCD78E03EEBB4A5EFF427E6FD69EB = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E;
+			proxyType = 1;
+			remoteGlobalIDString = E659FC1F358B805598129E8F4DDDBCC5;
+			remoteInfo = CircularSpinner;
+		};
+		46CE3C4CCF06BA444A5E360170CDF591 = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E;
 			proxyType = 1;
 			remoteGlobalIDString = EE57040B0F2FD9464A60DBE1F82FE001;
 			remoteInfo = Kanna;
 		};
-		7E42E661B1BEADBC95C3D8D3411203E2 = {
+		B786FCAA2553CB2E8EF06CD75F0DD926 = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E;
 			proxyType = 1;
-			remoteGlobalIDString = E659FC1F358B805598129E8F4DDDBCC5;
-			remoteInfo = CircularSpinner;
+			remoteGlobalIDString = F095D22BDB72FFAABBF82B6708227470;
+			remoteInfo = "Toast-Swift";
 		};
 		C1396514CA3CD7B7A7C5EA5D0BF71A53 = {
 			isa = PBXContainerItemProxy;
@@ -427,69 +483,15 @@
 			remoteGlobalIDString = FDB564CB9B329445282310F835D1950B;
 			remoteInfo = "CircularSpinner-CircularSpinner";
 		};
-		D3CA0CEAAFB92D4A9E5EDC94CE171181 = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E;
-			proxyType = 1;
-			remoteGlobalIDString = 798F7BD8437AAC2B41EAF724BD46A4F4;
-			remoteInfo = "Toast-Swift";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03499C0E928CF957348BCF7327B8B08E = {
+		04FB688A1E14D55D5CAE6672C6623518 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			name = SAX.h;
-			path = Sources/libxml/SAX.h;
+			path = "Toast-Swift-umbrella.h";
 			sourceTree = "<group>";
-		};
-		03779776360563CC43A33DC8A801D478 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = xmlerror.h;
-			path = Sources/libxml/xmlerror.h;
-			sourceTree = "<group>";
-		};
-		0413AFE9326A0B3B81265CAFF16D8285 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
-			sourceTree = "<group>";
-		};
-		041D2C056D3D49DA75C253A0E236622D = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = CircularSpinner.swift;
-			path = CircularSpinner/Classes/CircularSpinner.swift;
-			sourceTree = "<group>";
-		};
-		04FEB79171A7ECDAB04527863E889FE3 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = "Kanna-dummy.m";
-			sourceTree = "<group>";
-		};
-		05FA3A33DFBB39C4BBEFC4BFF3928D7C = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = libxmlParserOption.swift;
-			path = Sources/libxmlParserOption.swift;
-			sourceTree = "<group>";
-		};
-		063D3462E54B597E2D2792254FAD0570 = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.framework;
-			includeInIndex = 0;
-			name = Toast_Swift.framework;
-			path = "Toast-Swift.framework";
-			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		072BC83918F2AA532AC5737DB17D8DC7 = {
 			isa = PBXFileReference;
@@ -505,11 +507,19 @@
 			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework;
 			sourceTree = DEVELOPER_DIR;
 		};
-		0C14D7F688F0E6FE9B830CB05370B64F = {
+		0BA004C5DE920C92DB7B11A2838DE986 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			path = "Kanna-umbrella.h";
+			name = xmlversion.h;
+			path = Sources/libxml/xmlversion.h;
+			sourceTree = "<group>";
+		};
+		0EA075CD1CF48185FAF42F10DC7D12F8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "GoogleToolboxForMac-dummy.m";
 			sourceTree = "<group>";
 		};
 		112A33B10EB7825862BD5EEFD8A1F630 = {
@@ -519,12 +529,20 @@
 			path = "Pods-Search-resources.sh";
 			sourceTree = "<group>";
 		};
-		113A41D57E66529EFDFFCC059BDC4F6A = {
+		128A4F9763996A9D3B18241E7D10682D = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			name = xlink.h;
-			path = Sources/libxml/xlink.h;
+			name = xpath.h;
+			path = Sources/libxml/xpath.h;
+			sourceTree = "<group>";
+		};
+		132419A3D06276517F277992236C28E2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = CircularSpinner.swift;
+			path = CircularSpinner/Classes/CircularSpinner.swift;
 			sourceTree = "<group>";
 		};
 		14FA305E59FF0831BFDF076554147CE7 = {
@@ -548,6 +566,14 @@
 			path = "Pods-SearchTests-resources.sh";
 			sourceTree = "<group>";
 		};
+		18A78452C4A6296F48854A40EB023ACB = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = xpathInternals.h;
+			path = Sources/libxml/xpathInternals.h;
+			sourceTree = "<group>";
+		};
 		19CDCF40C6ED1B08C2840A0C78E840E6 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
@@ -562,6 +588,21 @@
 			path = "Pods-Search.debug.xcconfig";
 			sourceTree = "<group>";
 		};
+		1DBB2E5FB14AAA4720F9E29548B2B537 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "CircularSpinner-prefix.pch";
+			sourceTree = "<group>";
+		};
+		2055AE6FB9030CD8A57603B99159C7ED = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = SAX2.h;
+			path = Sources/libxml/SAX2.h;
+			sourceTree = "<group>";
+		};
 		23016F69B2480F44D0BB5526B39192FA = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -569,70 +610,101 @@
 			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework;
 			sourceTree = DEVELOPER_DIR;
 		};
-		2B4DCA2E43E347CD8664A25705C113DF = {
+		25D4FB678E109216643B24BA6976DA9F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = globals.h;
+			path = Sources/libxml/globals.h;
+			sourceTree = "<group>";
+		};
+		26E2449233160F504AA30EDD46CA08A0 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "GTMNSData+zlib.m";
+			path = "Foundation/GTMNSData+zlib.m";
+			sourceTree = "<group>";
+		};
+		2886AD490FD16C7CA7DB329BF53EB0DC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "CircularSpinner-dummy.m";
+			sourceTree = "<group>";
+		};
+		297EC549C8C81E9F267C4C7EC179BBE2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = entities.h;
+			path = Sources/libxml/entities.h;
+			sourceTree = "<group>";
+		};
+		30E4A09596E71A8E2105701B2E17A66A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = GoogleToolboxForMac.xcconfig;
+			sourceTree = "<group>";
+		};
+		3234A512B94778B9D48F9555F5016BBB = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "GTMNSData+zlib.h";
+			path = "Foundation/GTMNSData+zlib.h";
+			sourceTree = "<group>";
+		};
+		364A6F3A98B529EB10E120D59AFF22BA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = libxmlParserOption.swift;
+			path = Sources/libxmlParserOption.swift;
+			sourceTree = "<group>";
+		};
+		368D99FCE09AC04FD01336A32A15677F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = FirebaseCore.framework;
+			path = Frameworks/frameworks/FirebaseCore.framework;
+			sourceTree = "<group>";
+		};
+		3A54843B9C37D77CA7447DC58C5DE6ED = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Kanna-umbrella.h";
+			sourceTree = "<group>";
+		};
+		3D53D633ED975141694973785F2F2985 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = CircularSpinner.xcconfig;
+			sourceTree = "<group>";
+		};
+		413561C7597C7685934CAF0DDF2592B4 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = CircularSpinner.framework;
+			path = CircularSpinner.framework;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		431C264CBCD99BFC9E9D3CEDD49E8330 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.objc;
 			path = "Toast-Swift-dummy.m";
 			sourceTree = "<group>";
 		};
-		3044DF20646AAF52A6CF2184EE9195E1 = {
+		499976B8D0ABD86ECBD19AB613B7F94F = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = libxmlHTMLNode.swift;
-			path = Sources/libxmlHTMLNode.swift;
-			sourceTree = "<group>";
-		};
-		32C8FA924D5B3DE335AA787EE9AA6D99 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			path = "Toast-Swift.modulemap";
-			sourceTree = "<group>";
-		};
-		3678F0E02E159E2FD1E478DB43112C0E = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = xmlregexp.h;
-			path = Sources/libxml/xmlregexp.h;
-			sourceTree = "<group>";
-		};
-		37980720D7DC3B1E217E74427A791EC2 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = Kanna.xcconfig;
-			sourceTree = "<group>";
-		};
-		3FFBC10F4849F0A926EEBF1951F7E27C = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "Kanna-prefix.pch";
-			sourceTree = "<group>";
-		};
-		454E559524547AC18CF7089FE5BC09DB = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = valid.h;
-			path = Sources/libxml/valid.h;
-			sourceTree = "<group>";
-		};
-		47BA6CEA7F9958824202B9CE5F049D90 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = Toast.swift;
-			path = Toast/Toast.swift;
-			sourceTree = "<group>";
-		};
-		498D868971DE1DA477F7CB6D16357683 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = "CircularSpinner-dummy.m";
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
 			sourceTree = "<group>";
 		};
 		4A714CCE23FD8356A5202EF231468680 = {
@@ -642,20 +714,28 @@
 			path = "Pods-SearchUITests-acknowledgements.markdown";
 			sourceTree = "<group>";
 		};
-		4DA288A8D00FFD3873CA44B685E48D2D = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = Kanna.swift;
-			path = Sources/Kanna.swift;
-			sourceTree = "<group>";
-		};
-		4FB803F890AABE856133CF2A11C53CE0 = {
+		4B66B763E92AA49B08AE5ED1D9738348 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			name = tree.h;
-			path = Sources/libxml/tree.h;
+			name = xlink.h;
+			path = Sources/libxml/xlink.h;
+			sourceTree = "<group>";
+		};
+		5028E7C0E34A80C4EA1F5C8C46EB0BA5 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = xmlIO.h;
+			path = Sources/libxml/xmlIO.h;
+			sourceTree = "<group>";
+		};
+		526BFDA7F11502B169ADD6093D46A869 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = list.h;
+			path = Sources/libxml/list.h;
 			sourceTree = "<group>";
 		};
 		57AB20BC39D83D769AA90A771D8FEE22 = {
@@ -665,34 +745,27 @@
 			path = "Pods-SearchUITests-umbrella.h";
 			sourceTree = "<group>";
 		};
-		5AF47B4BD23B73BB9FF9C704F82C310C = {
+		5E7DF70A3373BBFBA558D532647C9384 = {
 			isa = PBXFileReference;
-			explicitFileType = wrapper.cfbundle;
+			explicitFileType = wrapper.framework;
 			includeInIndex = 0;
-			name = CircularSpinner.bundle;
-			path = CircularSpinner.bundle;
+			name = Pods_SearchUITests.framework;
+			path = "Pods-SearchUITests.framework";
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		605D0219FD948F404A26AEB03C186991 = {
+		5E9A8EEB16ED8BAD818EA0B6904A1D91 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			name = hash.h;
-			path = Sources/libxml/hash.h;
+			path = "CircularSpinner-umbrella.h";
 			sourceTree = "<group>";
 		};
-		617A3611DC4AC3D6857AA5910A105E03 = {
+		61A9C5A49C824E98D52315DA850393C7 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
-			path = Kanna.modulemap;
-			sourceTree = "<group>";
-		};
-		61AEA8DA1247F385716967586ED8DDC2 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = xmlIO.h;
-			path = Sources/libxml/xmlIO.h;
+			lastKnownFileType = sourcecode.swift;
+			name = CSS.swift;
+			path = Sources/CSS.swift;
 			sourceTree = "<group>";
 		};
 		64633A636BAF584122CDF50D26807A1E = {
@@ -702,36 +775,19 @@
 			path = "Pods-SearchTests-dummy.m";
 			sourceTree = "<group>";
 		};
-		64FE9558C78FD0B5ECA629A0FFE4921F = {
+		6FE4820A95B5532DA9281011D71C82EA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = GoogleInterchangeUtilities.framework;
+			path = Frameworks/frameworks/GoogleInterchangeUtilities.framework;
+			sourceTree = "<group>";
+		};
+		7084E21BEAE9E7F59562345575457B61 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			name = xmlversion.h;
-			path = Sources/libxml/xmlversion.h;
-			sourceTree = "<group>";
-		};
-		6DE229F44882F6C5A03F23B4A27F26F1 = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.framework;
-			includeInIndex = 0;
-			name = Pods_SearchTests.framework;
-			path = "Pods-SearchTests.framework";
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E99E9AA53DD37973CE3D70D781F30DC = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = file.xib;
-			name = CircularSpinner.xib;
-			path = CircularSpinner/Classes/CircularSpinner.xib;
-			sourceTree = "<group>";
-		};
-		719FCE83D81E2754A55F080ABC25377E = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = globals.h;
-			path = Sources/libxml/globals.h;
+			name = xmlexports.h;
+			path = Sources/libxml/xmlexports.h;
 			sourceTree = "<group>";
 		};
 		7209F039F9608F6DCB19C410C6C0B7E0 = {
@@ -741,27 +797,20 @@
 			path = "Pods-SearchUITests-frameworks.sh";
 			sourceTree = "<group>";
 		};
-		76FCB8CF38E64C419B54E1C889E86A9B = {
+		76425122890FD84FCC2CEC79A5F449E3 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "Toast-Swift-prefix.pch";
+			lastKnownFileType = file.xib;
+			name = CircularSpinner.xib;
+			path = CircularSpinner/Classes/CircularSpinner.xib;
 			sourceTree = "<group>";
 		};
-		77532322BCDF78A920E665A44AC90E40 = {
+		79C4DE16851B0D9E9031E7225E691CF2 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = HTMLparser.h;
-			path = Sources/libxml/HTMLparser.h;
-			sourceTree = "<group>";
-		};
-		7890549AF2973D8290B82A6AE5EF9193 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = xmlstring.h;
-			path = Sources/libxml/xmlstring.h;
+			lastKnownFileType = sourcecode.swift;
+			name = libxmlHTMLNode.swift;
+			path = Sources/libxmlHTMLNode.swift;
 			sourceTree = "<group>";
 		};
 		79FEA35B5D8468EE8CD3ECEB25FD90DE = {
@@ -770,20 +819,29 @@
 			path = "Pods-Search.modulemap";
 			sourceTree = "<group>";
 		};
-		7CD4D3195FD7FAEFB79906A71A123A0A = {
+		7D57AE67D4690090528924BB5764DDC4 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.swift;
-			name = CSS.swift;
-			path = Sources/CSS.swift;
+			name = libxmlHTMLDocument.swift;
+			path = Sources/libxmlHTMLDocument.swift;
 			sourceTree = "<group>";
 		};
-		828A4DAE4F8B985A4BC3D61366F6A133 = {
+		7E29B79206CA0B1325896D3529B2F666 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
-			name = "x_darkGray@2x.png";
-			path = "CircularSpinner/Assets/x_darkGray@2x.png";
+			lastKnownFileType = sourcecode.c.h;
+			name = dict.h;
+			path = Sources/libxml/dict.h;
 			sourceTree = "<group>";
+		};
+		80781360DC6D8439B4D6845EBD68C8A3 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Pods_Search.framework;
+			path = "Pods-Search.framework";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		837A910F42E84FCC6ACC334B2F1D7489 = {
 			isa = PBXFileReference;
@@ -792,11 +850,12 @@
 			path = Info.plist;
 			sourceTree = "<group>";
 		};
-		85B65E0F7A86C94EC880AE6D897BF2A4 = {
+		83E924983DB1CD57E82233B221746172 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			path = "Toast-Swift-umbrella.h";
+			name = encoding.h;
+			path = Sources/libxml/encoding.h;
 			sourceTree = "<group>";
 		};
 		85FEBCB637C92CCD6AFFEFD6CF81C218 = {
@@ -806,12 +865,18 @@
 			path = "Pods-Search-acknowledgements.plist";
 			sourceTree = "<group>";
 		};
-		8AA2A62DE3AE44F8F4220891CAED632F = {
+		86836425D610DA370D78E56A35F7835A = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = libxmlHTMLDocument.swift;
-			path = Sources/libxmlHTMLDocument.swift;
+			name = "x_darkGray@3x.png";
+			path = "CircularSpinner/Assets/x_darkGray@3x.png";
+			sourceTree = "<group>";
+		};
+		8693BB01F15A11A3DBFF05BD0BA956F8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
 			sourceTree = "<group>";
 		};
 		8BDA0F26442DA703919C00FFB62539A3 = {
@@ -821,27 +886,12 @@
 			path = "Pods-SearchUITests.debug.xcconfig";
 			sourceTree = "<group>";
 		};
-		8C3BFF0D9BB7FA128689306D70DCB274 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			name = "x_darkGray@3x.png";
-			path = "CircularSpinner/Assets/x_darkGray@3x.png";
-			sourceTree = "<group>";
-		};
-		8EF0DD7E0B8669DEC5FD57C435BC498E = {
+		8DFEF15BEE9D6CB10B67301F98005098 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			name = xpathInternals.h;
-			path = Sources/libxml/xpathInternals.h;
-			sourceTree = "<group>";
-		};
-		90BB4CE26B56BA12EAFE23711E7AE108 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = list.h;
-			path = Sources/libxml/list.h;
+			name = xmlerror.h;
+			path = Sources/libxml/xmlerror.h;
 			sourceTree = "<group>";
 		};
 		912A98B1357A30579B199F2FE3101835 = {
@@ -851,12 +901,10 @@
 			path = "Pods-SearchUITests-resources.sh";
 			sourceTree = "<group>";
 		};
-		9149963B698E7309108F2006F86AF269 = {
+		9138282755D81E6B3A7FC56E0B10E689 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = HTMLtree.h;
-			path = Sources/libxml/HTMLtree.h;
+			path = Kanna.modulemap;
 			sourceTree = "<group>";
 		};
 		92763ED49B6C604387B0971E7403267C = {
@@ -876,11 +924,26 @@
 			sourceTree = SOURCE_ROOT;
 			xcLanguageSpecificationIdentifier = xcode.lang.ruby;
 		};
-		9BCB5A8B446D20A7C560622BFE41B3E9 = {
+		94FFD2204427C523B063847DD6F25272 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
+			lastKnownFileType = text.xcconfig;
+			path = "Toast-Swift.xcconfig";
+			sourceTree = "<group>";
+		};
+		96D728108270A5A6B4552C3823EDE3F5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = FirebaseAnalytics.framework;
+			path = Frameworks/frameworks/FirebaseAnalytics.framework;
+			sourceTree = "<group>";
+		};
+		9CD30C4D92FA5FF0E1EAA26225E05DD8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = hash.h;
+			path = Sources/libxml/hash.h;
 			sourceTree = "<group>";
 		};
 		9D46442E28E19D06388DA834DE433B1E = {
@@ -889,13 +952,36 @@
 			path = "Pods-SearchUITests.modulemap";
 			sourceTree = "<group>";
 		};
-		A24F584D19A9D0DCB56BA1F5D9549123 = {
+		9D5F9E24A9A8F8FE025EA8737EC74106 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = FirebaseInstanceID.framework;
+			path = Frameworks/frameworks/FirebaseInstanceID.framework;
+			sourceTree = "<group>";
+		};
+		9E94DCB9A273A95BC55B457F781A19A0 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Pods_SearchTests.framework;
+			path = "Pods-SearchTests.framework";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F722962BFC851571A3B594EE75CE4D5 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			name = threads.h;
-			path = Sources/libxml/threads.h;
+			name = xmlmemory.h;
+			path = Sources/libxml/xmlmemory.h;
 			sourceTree = "<group>";
+		};
+		A22E9DC3B6CB38465952DCF7C85475E3 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			name = CircularSpinner.bundle;
+			path = CircularSpinner.bundle;
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		A26A33D8461F14181DB4BA07A52E8A97 = {
 			isa = PBXFileReference;
@@ -904,11 +990,34 @@
 			path = "Pods-SearchUITests-dummy.m";
 			sourceTree = "<group>";
 		};
-		A4FF7165762517F8177E2B87346E5518 = {
+		A2E8F992842DC4D812099B7EE5810BF5 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = tree.h;
+			path = Sources/libxml/tree.h;
+			sourceTree = "<group>";
+		};
+		A32D721B8AFB42A273894EA8DCDB6959 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = text.plist.xml;
-			path = "ResourceBundle-CircularSpinner-Info.plist";
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		A4ACFEF427C7A60C6FEA5EAB8199FC00 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = xmlregexp.h;
+			path = Sources/libxml/xmlregexp.h;
+			sourceTree = "<group>";
+		};
+		A6776658784A3E86A39B0111B2856E9D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "GoogleToolboxForMac-umbrella.h";
 			sourceTree = "<group>";
 		};
 		A817CAE99C81EE68006DC1E60E295C0A = {
@@ -918,13 +1027,6 @@
 			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework;
 			sourceTree = DEVELOPER_DIR;
 		};
-		A84FC038C44A7F0EECC50B9627EAE940 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
-			sourceTree = "<group>";
-		};
 		AA1C19304A6F292E83C889CACBECA351 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
@@ -932,12 +1034,33 @@
 			path = "Pods-SearchUITests.release.xcconfig";
 			sourceTree = "<group>";
 		};
-		AF635DED2C9445CB2E4925D2B5043718 = {
+		AA79F3516F0CF7A5F98A96CEE734933C = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			name = entities.h;
-			path = Sources/libxml/entities.h;
+			path = "GoogleToolboxForMac-prefix.pch";
+			sourceTree = "<group>";
+		};
+		B15ECC7CF4D7BEC77737558B387405F2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = threads.h;
+			path = Sources/libxml/threads.h;
+			sourceTree = "<group>";
+		};
+		B1AD6B8D1FD8DF66E434C2CC144626FA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = HTMLparser.h;
+			path = Sources/libxml/HTMLparser.h;
+			sourceTree = "<group>";
+		};
+		B220B17088E1E6C216BB988EBCDB4710 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = "Toast-Swift.modulemap";
 			sourceTree = "<group>";
 		};
 		B5432136208F8DED1693D29199243AC5 = {
@@ -947,20 +1070,43 @@
 			path = "Pods-SearchTests-acknowledgements.plist";
 			sourceTree = "<group>";
 		};
-		B77EC857A27580FE48395798DE73344A = {
+		B5D92562D821407454BEA31E5C482BDE = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = "Toast-Swift.xcconfig";
+			lastKnownFileType = sourcecode.c.h;
+			name = SAX.h;
+			path = Sources/libxml/SAX.h;
 			sourceTree = "<group>";
 		};
-		B79618D0F8659C6B7A027A390CB625FB = {
+		B96E9571004CB775503242FA8C048366 = {
 			isa = PBXFileReference;
-			explicitFileType = wrapper.framework;
-			includeInIndex = 0;
-			name = Kanna.framework;
-			path = Kanna.framework;
-			sourceTree = BUILT_PRODUCTS_DIR;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = Firebase.h;
+			path = Core/Sources/Firebase.h;
+			sourceTree = "<group>";
+		};
+		BD9E0FBF5834995D18A2E2918D0BF197 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Kanna-dummy.m";
+			sourceTree = "<group>";
+		};
+		BF4F27615D07CA1F167E0EE8D093A072 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = Kanna.swift;
+			path = Sources/Kanna.swift;
+			sourceTree = "<group>";
+		};
+		BFC9AF944B485A0F8E16BC0BCC947E2D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
 		};
 		C1BE654A726026CBE2C1D4355C5F9198 = {
 			isa = PBXFileReference;
@@ -969,27 +1115,18 @@
 			path = "Pods-SearchUITests-acknowledgements.plist";
 			sourceTree = "<group>";
 		};
-		C2CDA299B3E642F35E243B7AA8ED9FD5 = {
+		C2F11627025532921E4B534CF3E35422 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = "x_darkGray@2x.png";
+			path = "CircularSpinner/Assets/x_darkGray@2x.png";
+			sourceTree = "<group>";
+		};
+		CC9FD57C37EAD998DDBE8E97B4CAF899 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			name = xmlautomata.h;
-			path = Sources/libxml/xmlautomata.h;
-			sourceTree = "<group>";
-		};
-		CCC21F4BCF17533053FB3B37549CC1BA = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = xpath.h;
-			path = Sources/libxml/xpath.h;
-			sourceTree = "<group>";
-		};
-		CD354D693599696457B9370DBDE7A802 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = CircularSpinner.xcconfig;
+			path = GTMDefines.h;
 			sourceTree = "<group>";
 		};
 		CE8862C2D44A3B8113CB25F3B6BC267A = {
@@ -999,10 +1136,33 @@
 			path = "Pods-Search-dummy.m";
 			sourceTree = "<group>";
 		};
-		D117BA459651BAA21C363B8BE73E904F = {
+		D0F73F15DF35D767196EF302BC8EAF66 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = GoogleSymbolUtilities.framework;
+			path = Frameworks/frameworks/GoogleSymbolUtilities.framework;
+			sourceTree = "<group>";
+		};
+		D15AE54CF11EA2470412F690338E9AC0 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			path = CircularSpinner.modulemap;
+			sourceTree = "<group>";
+		};
+		D1C28CA986E4EFAD82CC00A749E7A8B8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = parser.h;
+			path = Sources/libxml/parser.h;
+			sourceTree = "<group>";
+		};
+		D462E3A60110CF361DFBA84E17B3704A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = FIRInstanceID.h;
+			path = Sources/FIRInstanceID.h;
 			sourceTree = "<group>";
 		};
 		D87F2BF65A1E17B681BF5416E599CD5C = {
@@ -1012,34 +1172,12 @@
 			path = "Pods-Search-umbrella.h";
 			sourceTree = "<group>";
 		};
-		D95557307647353A6E8752C636443F9E = {
+		DE8A3D0A45AA7B3074F1168CB9474E88 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			path = "CircularSpinner-umbrella.h";
-			sourceTree = "<group>";
-		};
-		DD126F6E4522C0DCE50B69825904D044 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "CircularSpinner-prefix.pch";
-			sourceTree = "<group>";
-		};
-		DDE575120D877CA4CDB9B22D5591DEA4 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = encoding.h;
-			path = Sources/libxml/encoding.h;
-			sourceTree = "<group>";
-		};
-		DE071CAB5E200195BE7B321EB59D944E = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = parser.h;
-			path = Sources/libxml/parser.h;
+			name = HTMLtree.h;
+			path = Sources/libxml/HTMLtree.h;
 			sourceTree = "<group>";
 		};
 		DEE8A0F6ABF81B3FBFDD3A4C4F7427F7 = {
@@ -1049,11 +1187,26 @@
 			path = "Pods-Search-frameworks.sh";
 			sourceTree = "<group>";
 		};
+		DFC07ED49F5945E431B04B3BA418379A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = Kanna.xcconfig;
+			sourceTree = "<group>";
+		};
 		E07335AF785E80363426E95E5B48C336 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = text.plist.xml;
 			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		E0ADE309A34FA918E916F838D49FA49B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = Kanna.h;
+			path = Sources/Kanna.h;
 			sourceTree = "<group>";
 		};
 		E17C99FEA996962AEA641A1807DB7874 = {
@@ -1063,59 +1216,11 @@
 			path = Info.plist;
 			sourceTree = "<group>";
 		};
-		E2E43F60333084EC165980E04C72909E = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.framework;
-			includeInIndex = 0;
-			name = Pods_SearchUITests.framework;
-			path = "Pods-SearchUITests.framework";
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E514ABC53A8367DC81F95AAF9490CAF4 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = Kanna.h;
-			path = Sources/Kanna.h;
-			sourceTree = "<group>";
-		};
 		E652C3EC391AB3C79500324D01B21859 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			path = "Pods-SearchTests.modulemap";
 			sourceTree = "<group>";
-		};
-		E654078BDB8E9BC937B75FC75033D20C = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = xmlmemory.h;
-			path = Sources/libxml/xmlmemory.h;
-			sourceTree = "<group>";
-		};
-		E6A54493C0393B065DF55C7732643AF7 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = xmlexports.h;
-			path = Sources/libxml/xmlexports.h;
-			sourceTree = "<group>";
-		};
-		E6EB4DDB45432D9CD16E1729184EDF34 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = SAX2.h;
-			path = Sources/libxml/SAX2.h;
-			sourceTree = "<group>";
-		};
-		E87C32D90C0483AFFBF46C6D63BB15B0 = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.framework;
-			includeInIndex = 0;
-			name = Pods_Search.framework;
-			path = "Pods-Search.framework";
-			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		EBD1D3D597E0E4FCB854C81898358E7E = {
 			isa = PBXFileReference;
@@ -1124,12 +1229,72 @@
 			path = "Pods-SearchTests-frameworks.sh";
 			sourceTree = "<group>";
 		};
-		FA8E6AE173300B12F9D4177B2AB6FF40 = {
+		EEA662DB5C772D1FFB38725AF4FF0663 = {
 			isa = PBXFileReference;
 			explicitFileType = wrapper.framework;
 			includeInIndex = 0;
-			name = CircularSpinner.framework;
-			path = CircularSpinner.framework;
+			name = GoogleToolboxForMac.framework;
+			path = GoogleToolboxForMac.framework;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EEEEB04A6E714369F8931669B92AF0CC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = xmlautomata.h;
+			path = Sources/libxml/xmlautomata.h;
+			sourceTree = "<group>";
+		};
+		F1264199BF47043228D186BAA925C7EA = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Toast_Swift.framework;
+			path = "Toast-Swift.framework";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F47F4840A7240C5DB9EADA9ACDA078D1 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = GoogleToolboxForMac.modulemap;
+			sourceTree = "<group>";
+		};
+		F59AB380B86F608A920A1275859FEA0F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Toast-Swift-prefix.pch";
+			sourceTree = "<group>";
+		};
+		F5B9577E731F678003ED14E889F5B295 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = xmlstring.h;
+			path = Sources/libxml/xmlstring.h;
+			sourceTree = "<group>";
+		};
+		FA1E47A1C37E57EDC5160548BA9DA7BA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = valid.h;
+			path = Sources/libxml/valid.h;
+			sourceTree = "<group>";
+		};
+		FC1C3AA382728C12A60FAB794B8A1411 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = "ResourceBundle-CircularSpinner-Info.plist";
+			sourceTree = "<group>";
+		};
+		FC58B0A8BB3B498314A7C2388DE73A22 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Kanna.framework;
+			path = Kanna.framework;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		FC66E8026B8919CB29A7EDF653BC9782 = {
@@ -1139,12 +1304,19 @@
 			path = "Pods-Search-acknowledgements.markdown";
 			sourceTree = "<group>";
 		};
-		FCE5982F517D535DB5262A5C04B7545A = {
+		FDBD6AA3DE2878E3353CE7E030E0944C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = Toast.swift;
+			path = Toast/Toast.swift;
+			sourceTree = "<group>";
+		};
+		FE48BE43DAE2D2C739274F8483D7D531 = {
 			isa = PBXFileReference;
 			includeInIndex = 1;
 			lastKnownFileType = sourcecode.c.h;
-			name = dict.h;
-			path = Sources/libxml/dict.h;
+			path = "Kanna-prefix.pch";
 			sourceTree = "<group>";
 		};
 /* End PBXFileReference section */
@@ -1173,11 +1345,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		790E5FC279BA7C0AEFDAA7969F7BE525 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0655C3E7FCE02C35F819251044317D8C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		92B8698D24B9E168AEDA5460E7D9293B = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BD1B3D75372BEAFD4B4170A24E8ABDE1,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98799AF16A02E44A60E1FCF4585F5FC0 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A85CA82B9659849AFEAD923882ECEF,
+				5D80A1D759485137D5350BEADAA213EA,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B6CB53EA4937F7D4A9B498BEA71A25 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529535B3F0953F90542E496EDAF7CEEE,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1190,34 +1387,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1CDF8729713B4F93CF1AE5D442A4B8B = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				463FBC004EE869DA25B8E4E11093D84A,
-				98DA09C386FA39B088A9C5C96F6B625D,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA673CB20DE21BC49E18FFFCC6C17070 = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DD338B839B3173D6131385F2C7C9017,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		003FBEB831330E9EE00A18ABF9636033 = {
+		013A51AFC72DE5FAA2A54F3E6795F623 = {
 			isa = PBXGroup;
 			children = (
-				47BA6CEA7F9958824202B9CE5F049D90,
-				82BA74816F80E694973220FE87EAE999,
+				D462E3A60110CF361DFBA84E17B3704A,
+				F2A8E97A74B0376AF4178805DD35F872,
 			);
-			name = "Toast-Swift";
-			path = "Toast-Swift";
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		104056B444CEE667077A762BBAA4DF4C = {
+			isa = PBXGroup;
+			children = (
+				CC9FD57C37EAD998DDBE8E97B4CAF899,
+			);
+			name = Defines;
 			sourceTree = "<group>";
 		};
 		122DA2E5084A4393C29BE363C764795C = {
@@ -1226,6 +1414,23 @@
 				DFDE779C6E5D3445E0CB8CCB8D424449,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		126E0EE339E93257097CA9415AAB0D53 = {
+			isa = PBXGroup;
+			children = (
+				BDFB4B1BB9F067F290D68F576C22663D,
+				C73A7657109F4AF14CA2B8883BDDE55B,
+				56178A9B7937688BF569C9274D77B7AE,
+				3EAB913A606B357432B3A760137B382E,
+				013A51AFC72DE5FAA2A54F3E6795F623,
+				AE3C24E9096CF584311B5D9DF7ED3B62,
+				8FD38AD3BBB03C32C24B750117685869,
+				AACDDC99C02E5094F28045F4A95756C8,
+				F5BFA548758F861C12371E84CB7B3FE0,
+				81C134DE19E53ED45C63DB0A303DA9B4,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		31238D8F454D7C9935A7EA9ACEF42FB9 = {
@@ -1256,16 +1461,72 @@
 			path = "Target Support Files/Pods-SearchUITests";
 			sourceTree = "<group>";
 		};
-		6821635D08ED155FE89C7972969A1575 = {
+		391F68476DE4EFBAEDF3A6D319CDA07E = {
 			isa = PBXGroup;
 			children = (
-				5AF47B4BD23B73BB9FF9C704F82C310C,
-				FA8E6AE173300B12F9D4177B2AB6FF40,
-				B79618D0F8659C6B7A027A390CB625FB,
-				E87C32D90C0483AFFBF46C6D63BB15B0,
-				6DE229F44882F6C5A03F23B4A27F26F1,
-				E2E43F60333084EC165980E04C72909E,
-				063D3462E54B597E2D2792254FAD0570,
+				368D99FCE09AC04FD01336A32A15677F,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EAB913A606B357432B3A760137B382E = {
+			isa = PBXGroup;
+			children = (
+				391F68476DE4EFBAEDF3A6D319CDA07E,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		550BFB837341C999EA6BDBE2744CF147 = {
+			isa = PBXGroup;
+			children = (
+				D15AE54CF11EA2470412F690338E9AC0,
+				3D53D633ED975141694973785F2F2985,
+				2886AD490FD16C7CA7DB329BF53EB0DC,
+				1DBB2E5FB14AAA4720F9E29548B2B537,
+				5E9A8EEB16ED8BAD818EA0B6904A1D91,
+				499976B8D0ABD86ECBD19AB613B7F94F,
+				FC1C3AA382728C12A60FAB794B8A1411,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircularSpinner";
+			sourceTree = "<group>";
+		};
+		56178A9B7937688BF569C9274D77B7AE = {
+			isa = PBXGroup;
+			children = (
+				A3C2A8AAC0995FF51265556BC10FB8A8,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		633950B00C71256E37BCD305074046C2 = {
+			isa = PBXGroup;
+			children = (
+				F47F4840A7240C5DB9EADA9ACDA078D1,
+				30E4A09596E71A8E2105701B2E17A66A,
+				0EA075CD1CF48185FAF42F10DC7D12F8,
+				AA79F3516F0CF7A5F98A96CEE734933C,
+				A6776658784A3E86A39B0111B2856E9D,
+				8693BB01F15A11A3DBFF05BD0BA956F8,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		67A07E55F974385D625F2B4E64BC310A = {
+			isa = PBXGroup;
+			children = (
+				A22E9DC3B6CB38465952DCF7C85475E3,
+				413561C7597C7685934CAF0DDF2592B4,
+				EEA662DB5C772D1FFB38725AF4FF0663,
+				FC58B0A8BB3B498314A7C2388DE73A22,
+				80781360DC6D8439B4D6845EBD68C8A3,
+				9E94DCB9A273A95BC55B457F781A19A0,
+				5E7DF70A3373BBFBA558D532647C9384,
+				F1264199BF47043228D186BAA925C7EA,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1275,60 +1536,83 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73,
 				122DA2E5084A4393C29BE363C764795C,
-				C1580AB8A273E996AB7158BC29F1CDEF,
-				6821635D08ED155FE89C7972969A1575,
+				126E0EE339E93257097CA9415AAB0D53,
+				67A07E55F974385D625F2B4E64BC310A,
 				31238D8F454D7C9935A7EA9ACEF42FB9,
 			);
 			sourceTree = "<group>";
 		};
-		82BA74816F80E694973220FE87EAE999 = {
-			isa = PBXGroup;
-			children = (
-				0413AFE9326A0B3B81265CAFF16D8285,
-				32C8FA924D5B3DE335AA787EE9AA6D99,
-				B77EC857A27580FE48395798DE73344A,
-				2B4DCA2E43E347CD8664A25705C113DF,
-				76FCB8CF38E64C419B54E1C889E86A9B,
-				85B65E0F7A86C94EC880AE6D897BF2A4,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Toast-Swift";
-			sourceTree = "<group>";
-		};
-		8B6B8A8A11AF82476F217EE6F5CC206F = {
-			isa = PBXGroup;
-			children = (
-				041D2C056D3D49DA75C253A0E236622D,
-				6E99E9AA53DD37973CE3D70D781F30DC,
-				828A4DAE4F8B985A4BC3D61366F6A133,
-				8C3BFF0D9BB7FA128689306D70DCB274,
-				9F854DA504D7B1B97518D873FF4012F0,
-				9901FDE369D2BDF953DBE4542E40A53A,
-			);
-			name = CircularSpinner;
-			path = CircularSpinner;
-			sourceTree = "<group>";
-		};
-		9901FDE369D2BDF953DBE4542E40A53A = {
-			isa = PBXGroup;
-			children = (
-				D117BA459651BAA21C363B8BE73E904F,
-				CD354D693599696457B9370DBDE7A802,
-				498D868971DE1DA477F7CB6D16357683,
-				DD126F6E4522C0DCE50B69825904D044,
-				D95557307647353A6E8752C636443F9E,
-				A84FC038C44A7F0EECC50B9627EAE940,
-				A4FF7165762517F8177E2B87346E5518,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CircularSpinner";
-			sourceTree = "<group>";
-		};
-		9F854DA504D7B1B97518D873FF4012F0 = {
+		81BE27490341FCB00FCED5772FE5412A = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		81C134DE19E53ED45C63DB0A303DA9B4 = {
+			isa = PBXGroup;
+			children = (
+				FDBD6AA3DE2878E3353CE7E030E0944C,
+				B76ADEBE303D111550714FC43816C561,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		8FD38AD3BBB03C32C24B750117685869 = {
+			isa = PBXGroup;
+			children = (
+				B44DF62FAE3DC68CB13A3EEED21E1992,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		91BA62862FEA321293D47BCC05930995 = {
+			isa = PBXGroup;
+			children = (
+				A32D721B8AFB42A273894EA8DCDB6959,
+				9138282755D81E6B3A7FC56E0B10E689,
+				DFC07ED49F5945E431B04B3BA418379A,
+				BD9E0FBF5834995D18A2E2918D0BF197,
+				FE48BE43DAE2D2C739274F8483D7D531,
+				3A54843B9C37D77CA7447DC58C5DE6ED,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kanna";
+			sourceTree = "<group>";
+		};
+		954792E31E6E67C7FC945EC026494FA4 = {
+			isa = PBXGroup;
+			children = (
+				6FE4820A95B5532DA9281011D71C82EA,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B79CA709501EF5F7044ECF76B162608 = {
+			isa = PBXGroup;
+			children = (
+				B96E9571004CB775503242FA8C048366,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A34AD2B77A1DB316B44CF6308FDDF28E = {
+			isa = PBXGroup;
+			children = (
+				3234A512B94778B9D48F9555F5016BBB,
+				26E2449233160F504AA30EDD46CA08A0,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		A3C2A8AAC0995FF51265556BC10FB8A8 = {
+			isa = PBXGroup;
+			children = (
+				96D728108270A5A6B4552C3823EDE3F5,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A5C0FE557643EF360731998B4BBDF866 = {
@@ -1349,68 +1633,60 @@
 			path = "Target Support Files/Pods-Search";
 			sourceTree = "<group>";
 		};
-		AAA77D7DB26CEAF52751AD1C6BD9FAF8 = {
+		AACDDC99C02E5094F28045F4A95756C8 = {
 			isa = PBXGroup;
 			children = (
-				9BCB5A8B446D20A7C560622BFE41B3E9,
-				617A3611DC4AC3D6857AA5910A105E03,
-				37980720D7DC3B1E217E74427A791EC2,
-				04FEB79171A7ECDAB04527863E889FE3,
-				3FFBC10F4849F0A926EEBF1951F7E27C,
-				0C14D7F688F0E6FE9B830CB05370B64F,
+				104056B444CEE667077A762BBAA4DF4C,
+				A34AD2B77A1DB316B44CF6308FDDF28E,
+				633950B00C71256E37BCD305074046C2,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		AE3C24E9096CF584311B5D9DF7ED3B62 = {
+			isa = PBXGroup;
+			children = (
+				954792E31E6E67C7FC945EC026494FA4,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		B44DF62FAE3DC68CB13A3EEED21E1992 = {
+			isa = PBXGroup;
+			children = (
+				D0F73F15DF35D767196EF302BC8EAF66,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B76ADEBE303D111550714FC43816C561 = {
+			isa = PBXGroup;
+			children = (
+				BFC9AF944B485A0F8E16BC0BCC947E2D,
+				B220B17088E1E6C216BB988EBCDB4710,
+				94FFD2204427C523B063847DD6F25272,
+				431C264CBCD99BFC9E9D3CEDD49E8330,
+				F59AB380B86F608A920A1275859FEA0F,
+				04FB688A1E14D55D5CAE6672C6623518,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Kanna";
+			path = "../Target Support Files/Toast-Swift";
 			sourceTree = "<group>";
 		};
-		B50AEF3F8333417FAF385D49E63EB469 = {
+		BDFB4B1BB9F067F290D68F576C22663D = {
 			isa = PBXGroup;
 			children = (
-				7CD4D3195FD7FAEFB79906A71A123A0A,
-				FCE5982F517D535DB5262A5C04B7545A,
-				DDE575120D877CA4CDB9B22D5591DEA4,
-				AF635DED2C9445CB2E4925D2B5043718,
-				719FCE83D81E2754A55F080ABC25377E,
-				605D0219FD948F404A26AEB03C186991,
-				77532322BCDF78A920E665A44AC90E40,
-				9149963B698E7309108F2006F86AF269,
-				E514ABC53A8367DC81F95AAF9490CAF4,
-				4DA288A8D00FFD3873CA44B685E48D2D,
-				8AA2A62DE3AE44F8F4220891CAED632F,
-				3044DF20646AAF52A6CF2184EE9195E1,
-				05FA3A33DFBB39C4BBEFC4BFF3928D7C,
-				90BB4CE26B56BA12EAFE23711E7AE108,
-				DE071CAB5E200195BE7B321EB59D944E,
-				03499C0E928CF957348BCF7327B8B08E,
-				E6EB4DDB45432D9CD16E1729184EDF34,
-				A24F584D19A9D0DCB56BA1F5D9549123,
-				4FB803F890AABE856133CF2A11C53CE0,
-				454E559524547AC18CF7089FE5BC09DB,
-				113A41D57E66529EFDFFCC059BDC4F6A,
-				C2CDA299B3E642F35E243B7AA8ED9FD5,
-				03779776360563CC43A33DC8A801D478,
-				E6A54493C0393B065DF55C7732643AF7,
-				61AEA8DA1247F385716967586ED8DDC2,
-				E654078BDB8E9BC937B75FC75033D20C,
-				3678F0E02E159E2FD1E478DB43112C0E,
-				7890549AF2973D8290B82A6AE5EF9193,
-				64FE9558C78FD0B5ECA629A0FFE4921F,
-				CCC21F4BCF17533053FB3B37549CC1BA,
-				8EF0DD7E0B8669DEC5FD57C435BC498E,
-				AAA77D7DB26CEAF52751AD1C6BD9FAF8,
+				132419A3D06276517F277992236C28E2,
+				76425122890FD84FCC2CEC79A5F449E3,
+				C2F11627025532921E4B534CF3E35422,
+				86836425D610DA370D78E56A35F7835A,
+				81BE27490341FCB00FCED5772FE5412A,
+				550BFB837341C999EA6BDBE2744CF147,
 			);
-			name = Kanna;
-			path = Kanna;
-			sourceTree = "<group>";
-		};
-		C1580AB8A273E996AB7158BC29F1CDEF = {
-			isa = PBXGroup;
-			children = (
-				8B6B8A8A11AF82476F217EE6F5CC206F,
-				B50AEF3F8333417FAF385D49E63EB469,
-				003FBEB831330E9EE00A18ABF9636033,
-			);
-			name = Pods;
+			name = CircularSpinner;
+			path = CircularSpinner;
 			sourceTree = "<group>";
 		};
 		C1E15A1E284B6A124A2980880A1B5B1C = {
@@ -1431,6 +1707,15 @@
 			path = "Target Support Files/Pods-SearchTests";
 			sourceTree = "<group>";
 		};
+		C73A7657109F4AF14CA2B8883BDDE55B = {
+			isa = PBXGroup;
+			children = (
+				9B79CA709501EF5F7044ECF76B162608,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 		DFDE779C6E5D3445E0CB8CCB8D424449 = {
 			isa = PBXGroup;
 			children = (
@@ -1439,6 +1724,54 @@
 				091D54A73E1E8BB182C9D7D245AF1C2F,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F2A8E97A74B0376AF4178805DD35F872 = {
+			isa = PBXGroup;
+			children = (
+				9D5F9E24A9A8F8FE025EA8737EC74106,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5BFA548758F861C12371E84CB7B3FE0 = {
+			isa = PBXGroup;
+			children = (
+				61A9C5A49C824E98D52315DA850393C7,
+				7E29B79206CA0B1325896D3529B2F666,
+				83E924983DB1CD57E82233B221746172,
+				297EC549C8C81E9F267C4C7EC179BBE2,
+				25D4FB678E109216643B24BA6976DA9F,
+				9CD30C4D92FA5FF0E1EAA26225E05DD8,
+				B1AD6B8D1FD8DF66E434C2CC144626FA,
+				DE8A3D0A45AA7B3074F1168CB9474E88,
+				E0ADE309A34FA918E916F838D49FA49B,
+				BF4F27615D07CA1F167E0EE8D093A072,
+				7D57AE67D4690090528924BB5764DDC4,
+				79C4DE16851B0D9E9031E7225E691CF2,
+				364A6F3A98B529EB10E120D59AFF22BA,
+				526BFDA7F11502B169ADD6093D46A869,
+				D1C28CA986E4EFAD82CC00A749E7A8B8,
+				B5D92562D821407454BEA31E5C482BDE,
+				2055AE6FB9030CD8A57603B99159C7ED,
+				B15ECC7CF4D7BEC77737558B387405F2,
+				A2E8F992842DC4D812099B7EE5810BF5,
+				FA1E47A1C37E57EDC5160548BA9DA7BA,
+				4B66B763E92AA49B08AE5ED1D9738348,
+				EEEEB04A6E714369F8931669B92AF0CC,
+				8DFEF15BEE9D6CB10B67301F98005098,
+				7084E21BEAE9E7F59562345575457B61,
+				5028E7C0E34A80C4EA1F5C8C46EB0BA5,
+				9F722962BFC851571A3B594EE75CE4D5,
+				A4ACFEF427C7A60C6FEA5EAB8199FC00,
+				F5B9577E731F678003ED14E889F5B295,
+				0BA004C5DE920C92DB7B11A2838DE986,
+				128A4F9763996A9D3B18241E7D10682D,
+				18A78452C4A6296F48854A40EB023ACB,
+				91BA62862FEA321293D47BCC05930995,
+			);
+			name = Kanna;
+			path = Kanna;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1452,11 +1785,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B2EBED68E37E3200FC3A8DD4C65ED59 = {
+		29F5B9E7646C3170C71E804D5A64EAC7 = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50A934878DF508F59D53DDA91784C382,
+				B910FE00538591C9996D770836F3B177,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1502,19 +1835,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5D5252CC59342401A2285319A65F9042 = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033ACB05F42D188C48DE39BC2C908C0B,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7DF7BA6D3248730861A2FB6E19B4BC = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C602C7BEF5548774EE4648554C9C986,
+				A76E9C6510EC3CBA92D72C206673FF46,
+				8B465D54C800F29955B1EAA69CEF1CAD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9E1C863F58CC41F2AFC910B906BB892A = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D031D586AB805040EF6992621873DAEB,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF780EBB4823969DDD790F36747883CB = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2942534E3B50CB2D896B85299BC31267,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1535,44 +1878,24 @@
 			);
 			name = "Pods-SearchUITests";
 			productName = "Pods-SearchUITests";
-			productReference = E2E43F60333084EC165980E04C72909E;
+			productReference = 5E7DF70A3373BBFBA558D532647C9384;
 			productType = "com.apple.product-type.framework";
 		};
-		3B8EB673FBC31D04E25005261E7C74B3 = {
+		92BB131FA876445E027D20AE23EA7B5F = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72A8335D9712C5EE24E985B90AE25E8D;
+			buildConfigurationList = EA52F66354E9F71BC37B9128BC55EABF;
 			buildPhases = (
-				91334096A1B0F1ED9876D27346475B18,
-				DA673CB20DE21BC49E18FFFCC6C17070,
-				BF780EBB4823969DDD790F36747883CB,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				98D329EAA52F295DE5CF621840FDC5B6,
-				42EFA41B3F44FE9084B4D3821AE256A7,
-				0623FEF7C07B0E7E3518A43D442A507E,
-			);
-			name = "Pods-Search";
-			productName = "Pods-Search";
-			productReference = E87C32D90C0483AFFBF46C6D63BB15B0;
-			productType = "com.apple.product-type.framework";
-		};
-		798F7BD8437AAC2B41EAF724BD46A4F4 = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD33237A6F177E98086E7235395326E9;
-			buildPhases = (
-				6B1F5814C0C68F94E09C56DDF0257B27,
-				C1CDF8729713B4F93CF1AE5D442A4B8B,
-				2B2EBED68E37E3200FC3A8DD4C65ED59,
+				1B13920EEE24EB507A2EF0EDCE9770C7,
+				790E5FC279BA7C0AEFDAA7969F7BE525,
+				9C7DF7BA6D3248730861A2FB6E19B4BC,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Toast-Swift";
-			productName = "Toast-Swift";
-			productReference = 063D3462E54B597E2D2792254FAD0570;
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = EEA662DB5C772D1FFB38725AF4FF0663;
 			productType = "com.apple.product-type.framework";
 		};
 		B62612DAB496AB013933E2003E438B37 = {
@@ -1589,7 +1912,28 @@
 			);
 			name = "Pods-SearchTests";
 			productName = "Pods-SearchTests";
-			productReference = 6DE229F44882F6C5A03F23B4A27F26F1;
+			productReference = 9E94DCB9A273A95BC55B457F781A19A0;
+			productType = "com.apple.product-type.framework";
+		};
+		B7B9858F92F8F06FEC5D906F32D64030 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A861A4B3FE10186486931FA3D2FCB3B2;
+			buildPhases = (
+				618B2FFD0197D0C9A1A193D3CCBC67D7,
+				98B6CB53EA4937F7D4A9B498BEA71A25,
+				5D5252CC59342401A2285319A65F9042,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00170DC8E7E4FC5285580F0E66BD20FC,
+				082E81AC09FB2C582DD3F0B50F46FD60,
+				1579483F91553231FE2DA94A9AE4AC40,
+				0AC6907A90274D2564111F09290A4DFA,
+			);
+			name = "Pods-Search";
+			productName = "Pods-Search";
+			productReference = 80781360DC6D8439B4D6845EBD68C8A3;
 			productType = "com.apple.product-type.framework";
 		};
 		E659FC1F358B805598129E8F4DDDBCC5 = {
@@ -1608,7 +1952,7 @@
 			);
 			name = CircularSpinner;
 			productName = CircularSpinner;
-			productReference = FA8E6AE173300B12F9D4177B2AB6FF40;
+			productReference = 413561C7597C7685934CAF0DDF2592B4;
 			productType = "com.apple.product-type.framework";
 		};
 		EE57040B0F2FD9464A60DBE1F82FE001 = {
@@ -1625,7 +1969,24 @@
 			);
 			name = Kanna;
 			productName = Kanna;
-			productReference = B79618D0F8659C6B7A027A390CB625FB;
+			productReference = FC58B0A8BB3B498314A7C2388DE73A22;
+			productType = "com.apple.product-type.framework";
+		};
+		F095D22BDB72FFAABBF82B6708227470 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7C0F6690CC45E731C6A80268E19A78;
+			buildPhases = (
+				32F15AEED28D3875D75057E52FBF1D15,
+				98799AF16A02E44A60E1FCF4585F5FC0,
+				29F5B9E7646C3170C71E804D5A64EAC7,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = F1264199BF47043228D186BAA925C7EA;
 			productType = "com.apple.product-type.framework";
 		};
 		FDB564CB9B329445282310F835D1950B = {
@@ -1642,7 +2003,7 @@
 			);
 			name = "CircularSpinner-CircularSpinner";
 			productName = "CircularSpinner-CircularSpinner";
-			productReference = 5AF47B4BD23B73BB9FF9C704F82C310C;
+			productReference = A22E9DC3B6CB38465952DCF7C85475E3;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -1662,7 +2023,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6821635D08ED155FE89C7972969A1575;
+			productRefGroup = 67A07E55F974385D625F2B4E64BC310A;
 			projectDirPath = "";
 			projectReferences = (
 			);
@@ -1670,11 +2031,12 @@
 			targets = (
 				E659FC1F358B805598129E8F4DDDBCC5,
 				FDB564CB9B329445282310F835D1950B,
+				92BB131FA876445E027D20AE23EA7B5F,
 				EE57040B0F2FD9464A60DBE1F82FE001,
-				3B8EB673FBC31D04E25005261E7C74B3,
+				B7B9858F92F8F06FEC5D906F32D64030,
 				B62612DAB496AB013933E2003E438B37,
 				02C0E340774167E35A15A9D57DBD93FF,
-				798F7BD8437AAC2B41EAF724BD46A4F4,
+				F095D22BDB72FFAABBF82B6708227470,
 			);
 		};
 /* End PBXProject section */
@@ -1700,12 +2062,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6B1F5814C0C68F94E09C56DDF0257B27 = {
+		1B13920EEE24EB507A2EF0EDCE9770C7 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AC69C54C37828363858EA40C1BE6AD4,
-				8145D80F5B70E4729321769C5E295E26,
+				2377E523395CB5EC94D91283344580A1,
+				AF5A33CAE747988723CB39520111DC1D,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F15AEED28D3875D75057E52FBF1D15 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171A418AED16521456694B15C00E9F2C,
+				20866A1EFF62CED99D823B81B1C98C93,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618B2FFD0197D0C9A1A193D3CCBC67D7 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFCD2218E600361E15933C9AF7E1CCF,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1726,14 +2105,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2623B6567500BE703397C3B0367159,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91334096A1B0F1ED9876D27346475B18 = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9D3D5376E47D0F830CDF9714C095D03,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1768,23 +2139,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0623FEF7C07B0E7E3518A43D442A507E = {
-			isa = PBXTargetDependency;
-			name = "Toast-Swift";
-			target = 798F7BD8437AAC2B41EAF724BD46A4F4;
-			targetProxy = D3CA0CEAAFB92D4A9E5EDC94CE171181;
-		};
-		42EFA41B3F44FE9084B4D3821AE256A7 = {
-			isa = PBXTargetDependency;
-			name = Kanna;
-			target = EE57040B0F2FD9464A60DBE1F82FE001;
-			targetProxy = 7A889D4E493E8741D070A902AF68BF0A;
-		};
-		98D329EAA52F295DE5CF621840FDC5B6 = {
+		00170DC8E7E4FC5285580F0E66BD20FC = {
 			isa = PBXTargetDependency;
 			name = CircularSpinner;
 			target = E659FC1F358B805598129E8F4DDDBCC5;
-			targetProxy = 7E42E661B1BEADBC95C3D8D3411203E2;
+			targetProxy = 45ADCD78E03EEBB4A5EFF427E6FD69EB;
+		};
+		082E81AC09FB2C582DD3F0B50F46FD60 = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 92BB131FA876445E027D20AE23EA7B5F;
+			targetProxy = 413919C7130F2EF5234BEC824D224278;
+		};
+		0AC6907A90274D2564111F09290A4DFA = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = F095D22BDB72FFAABBF82B6708227470;
+			targetProxy = B786FCAA2553CB2E8EF06CD75F0DD926;
+		};
+		1579483F91553231FE2DA94A9AE4AC40 = {
+			isa = PBXTargetDependency;
+			name = Kanna;
+			target = EE57040B0F2FD9464A60DBE1F82FE001;
+			targetProxy = 46CE3C4CCF06BA444A5E360170CDF591;
 		};
 		BCF7515EA9996442439070A8073AA0FE = {
 			isa = PBXTargetDependency;
@@ -1797,7 +2174,7 @@
 /* Begin XCBuildConfiguration section */
 		00F6A88A0A7C6B997D1B0A467B0137D5 = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD354D693599696457B9370DBDE7A802;
+			baseConfigurationReference = 3D53D633ED975141694973785F2F2985;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1834,7 +2211,7 @@
 		};
 		2C879CDE46EEAC14C4B4CB2907617F3A = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37980720D7DC3B1E217E74427A791EC2;
+			baseConfigurationReference = DFC07ED49F5945E431B04B3BA418379A;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1868,9 +2245,82 @@
 			};
 			name = Release;
 		};
-		4785AE5A4955B5869C3366F60BD077C4 = {
+		3079812072D700208436646ED4D8A709 = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B77EC857A27580FE48395798DE73344A;
+			baseConfigurationReference = 94FFD2204427C523B063847DD6F25272;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4834F364C97BF3B06682692CB8BEC30D = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC07ED49F5945E431B04B3BA418379A;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kanna;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D3C40F950857159B6B329B7C6049396 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94FFD2204427C523B063847DD6F25272;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1905,23 +2355,23 @@
 			};
 			name = Debug;
 		};
-		4834F364C97BF3B06682692CB8BEC30D = {
+		6589856376C4D3D4F587D1F6FCD00810 = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37980720D7DC3B1E217E74427A791EC2;
+			baseConfigurationReference = 30E4A09596E71A8E2105701B2E17A66A;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kanna/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1929,18 +2379,17 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Kanna;
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		79BE78C000ABB5D23E9576E53FACCB2D = {
 			isa = XCBuildConfiguration;
@@ -1983,7 +2432,7 @@
 		};
 		8775C619410605F42C88FFD8D3EADB18 = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD354D693599696457B9370DBDE7A802;
+			baseConfigurationReference = 3D53D633ED975141694973785F2F2985;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2011,6 +2460,45 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F8930E64A216B06542C23E0FBD05F93 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CDCF40C6ED1B08C2840A0C78E840E6;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Search/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Search/Pods-Search.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Search;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2095,23 +2583,23 @@
 			};
 			name = Release;
 		};
-		C627992472EC5C91BE237847E47D4A7D = {
+		B991A22C1A6AE85FE9381FF1BD9165D8 = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B77EC857A27580FE48395798DE73344A;
+			baseConfigurationReference = 30E4A09596E71A8E2105701B2E17A66A;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2119,9 +2607,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Toast_Swift;
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2129,7 +2617,47 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		C695FDAAD82F2114BF6933E1F3D05560 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B9AE431C23DA2EBB6954DB9AA1A4C99;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Search/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Search/Pods-Search.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Search;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		CACE7C8415F53E79F07C6BBE57F0F61D = {
 			isa = XCBuildConfiguration;
@@ -2172,85 +2700,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		CC71974E7DA0C93615A06DAEB72C1DC8 = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19CDCF40C6ED1B08C2840A0C78E840E6;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Search/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Search/Pods-Search.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Search;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D7126E8E4E457A4F0F3D33780F4A544E = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B9AE431C23DA2EBB6954DB9AA1A4C99;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Search/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Search/Pods-Search.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Search;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -2335,7 +2784,7 @@
 		};
 		ED6518D5E42F43E49F55B435FF6B887B = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD354D693599696457B9370DBDE7A802;
+			baseConfigurationReference = 3D53D633ED975141694973785F2F2985;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CircularSpinner";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2352,7 +2801,7 @@
 		};
 		FB41F9E7B328F8225C6D7684660F4414 = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD354D693599696457B9370DBDE7A802;
+			baseConfigurationReference = 3D53D633ED975141694973785F2F2985;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CircularSpinner";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2406,20 +2855,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72A8335D9712C5EE24E985B90AE25E8D = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D7126E8E4E457A4F0F3D33780F4A544E,
-				CC71974E7DA0C93615A06DAEB72C1DC8,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A508AAA55542B2C711494795D3A7CACE = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4834F364C97BF3B06682692CB8BEC30D,
 				2C879CDE46EEAC14C4B4CB2907617F3A,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A861A4B3FE10186486931FA3D2FCB3B2 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C695FDAAD82F2114BF6933E1F3D05560,
+				8F8930E64A216B06542C23E0FBD05F93,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2433,11 +2882,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD33237A6F177E98086E7235395326E9 = {
+		CB7C0F6690CC45E731C6A80268E19A78 = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4785AE5A4955B5869C3366F60BD077C4,
-				C627992472EC5C91BE237847E47D4A7D,
+				4D3C40F950857159B6B329B7C6049396,
+				3079812072D700208436646ED4D8A709,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA52F66354E9F71BC37B9128BC55EABF = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B991A22C1A6AE85FE9381FF1BD9165D8,
+				6589856376C4D3D4F587D1F6FCD00810,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

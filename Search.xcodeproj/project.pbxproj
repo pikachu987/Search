@@ -13,8 +13,6 @@
 		6E308C741E10DAF300E491C9 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E308C731E10DAF300E491C9 /* SavedView.swift */; };
 		6E308C761E10DB0D00E491C9 /* SavedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E308C751E10DB0D00E491C9 /* SavedView.xib */; };
 		6E308CB41E1104C000E491C9 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E308CB31E1104C000E491C9 /* ImageDetailViewController.swift */; };
-		6E46BE3F1E13FBB3002D3A60 /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46BE3E1E13FBB3002D3A60 /* Movement.swift */; };
-		6E46BE411E13FC9E002D3A60 /* MoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46BE401E13FC9E002D3A60 /* MoveView.swift */; };
 		6E56B7FB1E0D2B9000F7ECCF /* ASCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E56B7F81E0D2B9000F7ECCF /* ASCollectionView.swift */; };
 		6E56B7FC1E0D2B9000F7ECCF /* ASCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E56B7F91E0D2B9000F7ECCF /* ASCollectionViewLayout.swift */; };
 		6E56B7FD1E0D2B9000F7ECCF /* ASCollectionViewParallaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E56B7FA1E0D2B9000F7ECCF /* ASCollectionViewParallaxCell.swift */; };
@@ -34,6 +32,11 @@
 		6EB24AC11E125A7600915AB2 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB24AC01E125A7600915AB2 /* Interactor.swift */; };
 		6EB24AC31E125A8900915AB2 /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB24AC21E125A8900915AB2 /* DismissAnimator.swift */; };
 		6ECA68AD1E10154100E3E8C4 /* RGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECA68AC1E10154000E3E8C4 /* RGBColor.swift */; };
+		6EF8668B1E14EB080057CF94 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF8668A1E14EB080057CF94 /* LoadingView.swift */; };
+		6EF8668D1E14EB1B0057CF94 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF8668C1E14EB1B0057CF94 /* LoadingView.xib */; };
+		6EF8668F1E14EB4D0057CF94 /* LoadingLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF8668E1E14EB4D0057CF94 /* LoadingLineView.swift */; };
+		6EF866911E14EB7C0057CF94 /* LoadingLineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF866901E14EB7C0057CF94 /* LoadingLineView.xib */; };
+		6EF866931E15100E0057CF94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EF866921E15100E0057CF94 /* GoogleService-Info.plist */; };
 		7BC4D746F8A13C158F5680BD /* Pods_SearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76D526C6DD2D8F5E7CB5719 /* Pods_SearchUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,8 +65,6 @@
 		6E308C731E10DAF300E491C9 /* SavedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
 		6E308C751E10DB0D00E491C9 /* SavedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SavedView.xib; sourceTree = "<group>"; };
 		6E308CB31E1104C000E491C9 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
-		6E46BE3E1E13FBB3002D3A60 /* Movement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movement.swift; sourceTree = "<group>"; };
-		6E46BE401E13FC9E002D3A60 /* MoveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveView.swift; sourceTree = "<group>"; };
 		6E56B7F81E0D2B9000F7ECCF /* ASCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASCollectionView.swift; sourceTree = "<group>"; };
 		6E56B7F91E0D2B9000F7ECCF /* ASCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASCollectionViewLayout.swift; sourceTree = "<group>"; };
 		6E56B7FA1E0D2B9000F7ECCF /* ASCollectionViewParallaxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASCollectionViewParallaxCell.swift; sourceTree = "<group>"; };
@@ -89,6 +90,11 @@
 		6EB24AC01E125A7600915AB2 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		6EB24AC21E125A8900915AB2 /* DismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
 		6ECA68AC1E10154000E3E8C4 /* RGBColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBColor.swift; sourceTree = "<group>"; };
+		6EF8668A1E14EB080057CF94 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		6EF8668C1E14EB1B0057CF94 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		6EF8668E1E14EB4D0057CF94 /* LoadingLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingLineView.swift; sourceTree = "<group>"; };
+		6EF866901E14EB7C0057CF94 /* LoadingLineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingLineView.xib; sourceTree = "<group>"; };
+		6EF866921E15100E0057CF94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		771D95D9E4638F6A2DBF5967 /* Pods-Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search.release.xcconfig"; path = "Pods/Target Support Files/Pods-Search/Pods-Search.release.xcconfig"; sourceTree = "<group>"; };
 		7D3AC2A952634E2460A862BC /* Pods-SearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchUITests/Pods-SearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F90D1ECAFE31DF557E73D73 /* Pods-SearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchTests/Pods-SearchTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,8 +138,6 @@
 				6EB24AC01E125A7600915AB2 /* Interactor.swift */,
 				6EB24AC21E125A8900915AB2 /* DismissAnimator.swift */,
 				6E8F81121E13AC9E00FA4F61 /* PhotoAlbumCustom.swift */,
-				6E46BE3E1E13FBB3002D3A60 /* Movement.swift */,
-				6E46BE401E13FC9E002D3A60 /* MoveView.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -166,6 +170,10 @@
 				6E56B7FE1E0D2BE600F7ECCF /* Header.xib */,
 				6E308C731E10DAF300E491C9 /* SavedView.swift */,
 				6E308C751E10DB0D00E491C9 /* SavedView.xib */,
+				6EF8668A1E14EB080057CF94 /* LoadingView.swift */,
+				6EF8668C1E14EB1B0057CF94 /* LoadingView.xib */,
+				6EF8668E1E14EB4D0057CF94 /* LoadingLineView.swift */,
+				6EF866901E14EB7C0057CF94 /* LoadingLineView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 				6EAC7D9B1E0CE82E0091E0BF /* Assets.xcassets */,
 				6EAC7D9D1E0CE82E0091E0BF /* LaunchScreen.storyboard */,
 				6EAC7DA01E0CE82E0091E0BF /* Info.plist */,
+				6EF866921E15100E0057CF94 /* GoogleService-Info.plist */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -395,8 +404,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E56B7FF1E0D2BE600F7ECCF /* Header.xib in Resources */,
+				6EF866931E15100E0057CF94 /* GoogleService-Info.plist in Resources */,
+				6EF866911E14EB7C0057CF94 /* LoadingLineView.xib in Resources */,
 				6EAC7D9F1E0CE82E0091E0BF /* LaunchScreen.storyboard in Resources */,
 				6EAC7D9C1E0CE82E0091E0BF /* Assets.xcassets in Resources */,
+				6EF8668D1E14EB1B0057CF94 /* LoadingView.xib in Resources */,
 				6EAC7D9A1E0CE82E0091E0BF /* Main.storyboard in Resources */,
 				6E308C761E10DB0D00E491C9 /* SavedView.xib in Resources */,
 			);
@@ -564,20 +576,20 @@
 				6E308C721E10B42400E491C9 /* Crawling.swift in Sources */,
 				6EA726581E0D4E91008F88F3 /* Extension.swift in Sources */,
 				6EAC7D971E0CE82E0091E0BF /* ViewController.swift in Sources */,
+				6EF8668F1E14EB4D0057CF94 /* LoadingLineView.swift in Sources */,
 				6EAC7DC51E0D093F0091E0BF /* GirdCell.swift in Sources */,
+				6EF8668B1E14EB080057CF94 /* LoadingView.swift in Sources */,
 				6E56B7FD1E0D2B9000F7ECCF /* ASCollectionViewParallaxCell.swift in Sources */,
 				6EA726561E0D4E73008F88F3 /* ParallaxCell.swift in Sources */,
 				6ECA68AD1E10154100E3E8C4 /* RGBColor.swift in Sources */,
 				6E8F81131E13AC9E00FA4F61 /* PhotoAlbumCustom.swift in Sources */,
 				6E56B7FB1E0D2B9000F7ECCF /* ASCollectionView.swift in Sources */,
-				6E46BE411E13FC9E002D3A60 /* MoveView.swift in Sources */,
 				6E308C741E10DAF300E491C9 /* SavedView.swift in Sources */,
 				6E308CB41E1104C000E491C9 /* ImageDetailViewController.swift in Sources */,
 				6EAC7D951E0CE82E0091E0BF /* AppDelegate.swift in Sources */,
 				6E56B7FC1E0D2B9000F7ECCF /* ASCollectionViewLayout.swift in Sources */,
 				6EB24AC11E125A7600915AB2 /* Interactor.swift in Sources */,
 				6EB24AC31E125A8900915AB2 /* DismissAnimator.swift in Sources */,
-				6E46BE3F1E13FBB3002D3A60 /* Movement.swift in Sources */,
 				6EAC7DC31E0D07620091E0BF /* ImageVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

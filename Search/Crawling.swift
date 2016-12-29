@@ -18,6 +18,7 @@ enum Craw {
 protocol CrawlingDelegate {
     func crawlingAdd(_ imageVO: ImageVO)
     func crawlingReload()
+    func crawlingNoData(_ type: Craw)
 }
 
 class ImageCrawling {
@@ -90,6 +91,7 @@ class ImageCrawling {
     
     func parse(_ html: String, type: Craw){
         if let doc = HTML(html: html, encoding: .utf8){
+            var idx = 0
             for element in doc.css(self.arrTag(type)){
                 let imgSrc = self.imgSrc(type, element: element)
                 let title = self.title(type, element: element)
@@ -97,6 +99,12 @@ class ImageCrawling {
                 
                 if imgSrc != nil && imgSrc != "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"{
                     self.delegate?.crawlingAdd(ImageVO(imageURL: imgSrc!, title: title!, link: link!))
+                    idx += 1
+                }
+            }
+            if idx == 0{
+                DispatchQueue.main.async {
+                    self.delegate?.crawlingNoData(type)
                 }
             }
             DispatchQueue.main.async {
